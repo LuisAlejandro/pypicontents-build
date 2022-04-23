@@ -9,7 +9,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-20.04
-    if: github.repository == 'LuisAlejandro/pypicontents'
+    if: github.repository == 'LuisAlejandro/pypicontents-build'
     strategy:
       matrix:
         include:
@@ -71,7 +71,7 @@ jobs:
   stdlib:
     name: Generating Standard Library database
     runs-on: ubuntu-20.04
-    if: github.repository == 'LuisAlejandro/pypicontents'
+    if: github.repository == 'LuisAlejandro/pypicontents-build'
     needs: build
     steps:
       - name: Checkout repo
