@@ -57,7 +57,7 @@ jobs:
             dockershelf/pypicontents:3.10 \
               pypicontents pypi -o data/${LRANGE}/pypi.json \
                 -f logs/${LRANGE}/pypi.log -R ${LRANGE} \
-                -L 500M -M 6G -T 18000 -C
+                -L 1G -M 6G -T 18000 -C
           sudo chown -R runner:docker .
       - name: Commiting changes
         env:
@@ -115,7 +115,6 @@ jobs:
 
           git config --global user.name "Luis Alejandro Martínez Faneyth"
           git config --global user.email "luis@luisalejandro.org"
-          git config --global pull.rebase false
 
           git reset 0.1.0
           rm -rf pypi.json.xz
