@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     if: github.repository == 'LuisAlejandro/pypicontents-build'
     strategy:
+      fail-fast: false
       matrix:
         include:
           - lrange: "0-9"
@@ -52,10 +53,12 @@ jobs:
           LRANGE: ${{ matrix.lrange }}
         run: |
           docker build -t dockershelf/pypicontents:3.10 docker/3.10
-          docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+          docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
             dockershelf/pypicontents:3.10 \
               pypicontents pypi -o data/${LRANGE}/pypi.json \
-                -f logs/${LRANGE}/pypi.log -R ${LRANGE} -L 1G -M 6G -T 18000
+                -f logs/${LRANGE}/pypi.log -R ${LRANGE} \
+                -L 500M -M 6G -T 18000 -C
+          sudo chown -R runner:docker .
       - name: Commiting changes
         env:
           LRANGE: ${{ matrix.lrange }}
@@ -63,10 +66,14 @@ jobs:
           git config --global user.name "Luis Alejandro Martínez Faneyth"
           git config --global user.email "luis@luisalejandro.org"
           git config --global pull.rebase false
+
           git add --all .
-          git commit -a -m "[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})."
-          git pull -s recursive -X ours origin master
-          git push -f origin master
+          git commit -a -m "[ci skip] Updating PyPIContents index (PyPI letter ${LRANGE})." || true
+
+          if [ "${?}" == "0" ]; then
+            git pull -s recursive -X ours origin master
+            git push -f origin master
+          fi
 
   stdlib:
     name: Generating Standard Library database
@@ -86,30 +93,37 @@ jobs:
         run: |
           for PYVER in 3.8 3.9 3.10 3.11; do
               docker build -t dockershelf/pypicontents:${PYVER} docker/${PYVER}
-              docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+              docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
                   dockershelf/pypicontents:${PYVER} \
                       pypicontents stdlib -o stdlib/${PYVER}/stdlib.json
           done
 
-          docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+          docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
               dockershelf/pypicontents:3.10 \
                   pypicontents merge -o pypi.json -i data
-          docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+          docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
               dockershelf/pypicontents:3.10 \
                   pypicontents merge -o stdlib.json -i stdlib
-          docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+          docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
               dockershelf/pypicontents:3.10 \
                   pypicontents errors -o errors.json -i logs
-          docker run -v ${PWD}:${PWD} -w ${PWD} -u $(id -u):$(id -g) \
+          docker run -v ${PWD}:${PWD} -w ${PWD} -u root:root \
               dockershelf/pypicontents:3.10 \
                   pypicontents stats -o stats.txt -i logs
+
+          sudo chown -R runner:docker .
 
           git config --global user.name "Luis Alejandro Martínez Faneyth"
           git config --global user.email "luis@luisalejandro.org"
           git config --global pull.rebase false
-          git reset 514d1c7cdc1a2ae10a4d7c260d94609a02bc6001
+
+          git reset 0.1.0
           rm -rf pypi.json.xz
           xz pypi.json
+
           git add --all .
-          git commit -a -m "[ci skip] Updating PyPIContents index (stdlib and merge)."
-          git push -f origin master
+          git commit -a -m "[ci skip] Updating PyPIContents index (stdlib and merge)." || true
+          
+          if [ "${?}" == "0" ]; then
+            git push -f origin master
+          fi

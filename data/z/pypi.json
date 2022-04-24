@@ -10010,6 +10010,11 @@
         ],
         "version": "0.15.2"
     },
+    "zcls2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zcluster": {
         "cmdline": [
             "zCluster",
@@ -15117,6 +15122,11 @@
         ],
         "version": "1.3.4"
     },
+    "zenodo-rest": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zenodoclient": {
         "cmdline": [],
         "modules": [
@@ -18215,6 +18225,11 @@
             "users.views"
         ],
         "version": "0.1.7"
+    },
+    "zero-width-lib": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "zeroae-cli": {
         "cmdline": [],
@@ -23096,6 +23111,11 @@
         ],
         "version": "1.2.0"
     },
+    "zhihu-crawler": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zhihu-oauth": {
         "cmdline": [],
         "modules": [
@@ -23772,6 +23792,11 @@
             "ZhongLP.zzz_data.token_index"
         ],
         "version": "0.0.4"
+    },
+    "zhongtukexin-test": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "zhongzhuoragan": {
         "cmdline": [],
@@ -26306,6 +26331,11 @@
             "zilepackagetest.foo"
         ],
         "version": "0.0.2"
+    },
+    "zilian-mssql-django": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "zilingo-airflow-utils-test": {
         "cmdline": [],
@@ -29979,6 +30009,11 @@
             "ziptests.tests"
         ],
         "version": "1.0.0"
+    },
+    "ziptool": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "ziptools": {
         "cmdline": [],
@@ -45160,6 +45195,11 @@
         "modules": [],
         "version": "1.0.1"
     },
+    "zos-utilities": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zosapi": {
         "cmdline": [],
         "modules": [
@@ -45906,6 +45946,11 @@
         ],
         "version": "0.4.0"
     },
+    "zourmat-libpythonpro": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "zouss": {
         "cmdline": [],
         "modules": [],
@@ -46153,6 +46198,11 @@
             "zph01.zph"
         ],
         "version": "0.0.2"
+    },
+    "zphisher": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "zpider": {
         "cmdline": [],
@@ -55178,6 +55228,11 @@
             "zw.schema.i18n"
         ],
         "version": "0.2.2"
+    },
+    "zw-util-lib": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "zw-widget": {
         "cmdline": [],

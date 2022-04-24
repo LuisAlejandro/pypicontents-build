@@ -3559,6 +3559,16 @@
         ],
         "version": "1.1.0"
     },
+    "valdezdf": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "valdezds": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "valection": {
         "cmdline": [],
         "modules": [
@@ -11644,15 +11654,6 @@
         ],
         "version": "0.1.10"
     },
-    "varject": {
-        "cmdline": [],
-        "modules": [
-            "varject",
-            "varject.core_fnc",
-            "varject.quotes_handling"
-        ],
-        "version": "1.1.0"
-    },
     "varlens": {
         "cmdline": [],
         "modules": [
@@ -15815,6 +15816,11 @@
         ],
         "version": "0.1"
     },
+    "vcc-baf": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vcclick": {
         "cmdline": [],
         "modules": [
@@ -19712,6 +19718,11 @@
             "vecdb.transport"
         ],
         "version": "0.12.16"
+    },
+    "vecgl": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vecha": {
         "cmdline": [],
@@ -24390,6 +24401,11 @@
         ],
         "version": "0.1.4"
     },
+    "vemai": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vembrane": {
         "cmdline": [],
         "modules": [
@@ -25385,6 +25401,11 @@
             "venturocket.listing"
         ],
         "version": "1.0.0"
+    },
+    "ventus": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "ventx-aws-cdk-library": {
         "cmdline": [],
@@ -27545,6 +27566,16 @@
             "verify.types"
         ],
         "version": "1.1.1"
+    },
+    "verify-a": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "verify-b": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "verify-box": {
         "cmdline": [],
@@ -32229,6 +32260,11 @@
         ],
         "version": "0.0.2"
     },
+    "very-basic-calculator": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "very-basic-math-calculator": {
         "cmdline": [],
         "modules": [],
@@ -32241,6 +32277,11 @@
             "sql_cli.sql_cli"
         ],
         "version": "1.0.7"
+    },
+    "very-easy-recommendation-engine": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "very-good-setuptools-git-version": {
         "cmdline": [],
@@ -46239,11 +46280,6 @@
         "modules": [],
         "version": "0.1"
     },
-    "vino": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
     "vinod-python": {
         "cmdline": [],
         "modules": [],
@@ -47002,6 +47038,11 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.1"
+    },
+    "vioneta-agro": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vioneta-agro-frontend": {
         "cmdline": [],
@@ -47991,6 +48032,11 @@
             "viren.viren"
         ],
         "version": "0.1.2"
+    },
+    "virenamer": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "virenderphenom": {
         "cmdline": [],
@@ -51053,6 +51099,11 @@
         ],
         "version": "1.1.0"
     },
+    "virussss": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "virustotal": {
         "cmdline": [],
         "modules": [
@@ -53738,6 +53789,11 @@
         ],
         "version": "1.1.0"
     },
+    "visiongraph": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "visionkit": {
         "cmdline": [],
         "modules": [
@@ -53749,6 +53805,11 @@
             "VisionKit.main"
         ],
         "version": "0.2rc6"
+    },
+    "visionlab": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "visionlib": {
         "cmdline": [],
@@ -55545,6 +55606,16 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.0"
+    },
+    "vista-dna-snop-demand-forecaster": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "vista-dna-snop-demand-forecaster-dev": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vistaapiclient": {
         "cmdline": [],
@@ -59507,6 +59578,11 @@
             "vivaldi_a.plot.Plot_2D"
         ],
         "version": "0.2.7"
+    },
+    "vivaldi-feed-exporter": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vivaredis": {
         "cmdline": [],
@@ -65908,6 +65984,11 @@
         ],
         "version": "0.1.0.dev202201301542"
     },
+    "vmashd": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vmath": {
         "cmdline": [],
         "modules": [],
@@ -67592,6 +67673,11 @@
         ],
         "version": "2.1.0"
     },
+    "vmu-tools": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vmupdate": {
         "cmdline": [],
         "modules": [
@@ -68688,6 +68774,11 @@
         ],
         "version": "0.0.4"
     },
+    "vndb-api-wrapper": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vndb-dl": {
         "cmdline": [],
         "modules": [
@@ -69210,6 +69301,11 @@
         "cmdline": [],
         "modules": [],
         "version": "2021.9.24"
+    },
+    "vnpy-hx": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vnpy-ib": {
         "cmdline": [],
@@ -70185,6 +70281,11 @@
         ],
         "version": "1.0.0"
     },
+    "vocabsieve": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vocabulary": {
         "cmdline": [],
         "modules": [
@@ -70328,6 +70429,11 @@
             "vocmax.nsrdb"
         ],
         "version": "1.0.1"
+    },
+    "vocola2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vocompr": {
         "cmdline": [],
@@ -70589,6 +70695,11 @@
             "VODet.stringUtil"
         ],
         "version": "0.0.2.6"
+    },
+    "vodex": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vodi": {
         "cmdline": [],
@@ -73948,6 +74059,11 @@
         ],
         "version": "0.2.1"
     },
+    "volcano-math": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "volcano-mbsrv": {
         "cmdline": [],
         "modules": [
@@ -74946,6 +75062,11 @@
         "modules": [],
         "version": "1.0"
     },
+    "voltfpipe": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "voltha-protos": {
         "cmdline": [],
         "modules": [
@@ -75186,6 +75307,11 @@
             "volumentations/core.transforms_interface"
         ],
         "version": "1.0.3"
+    },
+    "volumentations-aucmedi": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "volumential": {
         "cmdline": [],
@@ -79321,6 +79447,21 @@
         ],
         "version": "0.11.0"
     },
+    "vpype-occult": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "vpype-perspective": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "vpype-pixelart": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vpype-vectrace": {
         "cmdline": [],
         "modules": [
@@ -81018,6 +81159,11 @@
         ],
         "version": "3.15.183137"
     },
+    "vrt-lss-packer": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vrt-lss-partner": {
         "cmdline": [],
         "modules": [
@@ -81193,6 +81339,11 @@
             "vrt_lss_studio.rest"
         ],
         "version": "3.8.168904"
+    },
+    "vrt-lss-universal": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vrt-spacy": {
         "cmdline": [],
@@ -86426,6 +86577,11 @@
         ],
         "version": "1.0.0"
     },
+    "vst-python-aes256": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vstar": {
         "cmdline": [],
         "modules": [
@@ -90646,6 +90802,11 @@
         ],
         "version": "1.3.21"
     },
+    "vtest": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vtex": {
         "cmdline": [],
         "modules": [
@@ -90911,6 +91072,11 @@
             "vtk_util"
         ],
         "version": "0.0.1"
+    },
+    "vtk-onepoint": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "vtk-vacreader": {
         "cmdline": [],
@@ -92032,6 +92198,11 @@
         ],
         "version": "0.0.3"
     },
+    "vudeptrai": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "vudo-cmf": {
         "cmdline": [],
         "modules": [
@@ -92810,15 +92981,6 @@
             "modules.wpGrabber"
         ],
         "version": "1.6"
-    },
-    "vulpo": {
-        "cmdline": [],
-        "modules": [
-            "vulpo",
-            "vulpo.sheet",
-            "vulpo.vulpo"
-        ],
-        "version": "0.5"
     },
     "vulsdk": {
         "cmdline": [],

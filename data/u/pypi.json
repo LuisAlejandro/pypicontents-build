@@ -33,6 +33,11 @@
         ],
         "version": "0.1.11"
     },
+    "u-eval": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "u-grpc-lib": {
         "cmdline": [],
         "modules": [
@@ -55,12 +60,52 @@
         ],
         "version": "2021.5"
     },
+    "u-moba": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "u-msgpack-python": {
         "cmdline": [],
         "modules": [
             "umsgpack"
         ],
         "version": "2.7.1"
+    },
+    "u-pycharm-1": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-pycharm-2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-pycharm-3": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-pycharm-4": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-pycharm-5": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-redis": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "u-redis-green": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "u-robotframework-testrail": {
         "cmdline": [],
@@ -71,13 +116,10 @@
         ],
         "version": "1.4"
     },
-    "u-seal": {
+    "u-seal-vue-3-2-31": {
         "cmdline": [],
-        "modules": [
-            "u-seal",
-            "u-seal.ide_eval_resetter_jb51.rar"
-        ],
-        "version": "1.0.7"
+        "modules": [],
+        "version": ""
     },
     "u-umetrics": {
         "cmdline": [],
@@ -667,6 +709,11 @@
             "ua_ilab_tools.ua_ilab_tools"
         ],
         "version": "2.1.1"
+    },
+    "ua-node-avail": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "ua-parse": {
         "cmdline": [],
@@ -1476,6 +1523,11 @@
             "breeze_connect.breeze_connect"
         ],
         "version": "1.0.12.post3"
+    },
+    "uat-hkex-tools": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "uat-python-cicd": {
         "cmdline": [],
@@ -3590,6 +3642,11 @@
             "uc.utils"
         ],
         "version": "0.2"
+    },
+    "uc-sso": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "uc-tftp": {
         "cmdline": [],
@@ -6746,6 +6803,11 @@
         ],
         "version": "0.1"
     },
+    "udacity-probability-prac": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "udacity-test-aws-course": {
         "cmdline": [],
         "modules": [
@@ -7673,6 +7735,11 @@
             "udbnn.utils.ungzip"
         ],
         "version": "0.0.6"
+    },
+    "udbserver": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "udbworker": {
         "cmdline": [],
@@ -8756,16 +8823,6 @@
             "udpnecho.pinyin2hanzi.viterbi"
         ],
         "version": "0.1.1"
-    },
-    "udpp2p": {
-        "cmdline": [],
-        "modules": [
-            "UDPp2p.UDPReceiverHandler",
-            "UDPp2p.UDPReceiverThread",
-            "UDPp2p.UDPTransmitter",
-            "UDPp2p.UDPp2pUtilities"
-        ],
-        "version": "1.3"
     },
     "udprecv": {
         "cmdline": [],
@@ -9870,6 +9927,11 @@
             "main.cli"
         ],
         "version": "0.0.1"
+    },
+    "uetai": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "uetl": {
         "cmdline": [],
@@ -13585,6 +13647,11 @@
         "modules": [],
         "version": "0.0.2"
     },
+    "ujbk2": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "ujenkins": {
         "cmdline": [],
         "modules": [
@@ -16866,6 +16933,11 @@
             "ulp.widgets.popup"
         ],
         "version": "1.3.1"
+    },
+    "ulrm": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "ulstools": {
         "cmdline": [],
@@ -20383,6 +20455,11 @@
         ],
         "version": "0.2.7"
     },
+    "un1qnx-api": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "una-django-cassandra-engine": {
         "cmdline": [],
         "modules": [
@@ -20835,6 +20912,11 @@
             "unbalancedgw.vanilla_ugw_solver"
         ],
         "version": "0.2.0"
+    },
+    "unbekanntekiste": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "unbelipy": {
         "cmdline": [],
@@ -23000,6 +23082,11 @@
         ],
         "version": "0.0.207"
     },
+    "understory-auth": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "understory-cache": {
         "cmdline": [],
         "modules": [
@@ -23032,6 +23119,11 @@
             "understory.sql"
         ],
         "version": "0.0.8"
+    },
+    "understory-editor": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "understory-fx": {
         "cmdline": [],
@@ -23092,6 +23184,11 @@
             "understory.owner.templates"
         ],
         "version": "0.0.22"
+    },
+    "understory-posts": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "understory-term": {
         "cmdline": [],
@@ -27605,6 +27702,11 @@
         ],
         "version": "0.0.3"
     },
+    "uniformsumdistribution": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "uniformversion": {
         "cmdline": [],
         "modules": [
@@ -28061,6 +28163,11 @@
         ],
         "version": "1.2.9"
     },
+    "unikud": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "unilakedocs-theme": {
         "cmdline": [],
         "modules": [],
@@ -28127,6 +28234,11 @@
             "unilyze.unistat"
         ],
         "version": "0.2.1"
+    },
+    "unimacro": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "unimake": {
         "cmdline": [],
@@ -39637,6 +39749,11 @@
         ],
         "version": "0.5.4"
     },
+    "unopt": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "unormalize": {
         "cmdline": [],
         "modules": [
@@ -39788,6 +39905,11 @@
         ],
         "version": "0.2.1"
     },
+    "unpacktools": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "unpaddedbase32": {
         "cmdline": [],
         "modules": [
@@ -39846,6 +39968,11 @@
             "unplag.unplag"
         ],
         "version": "1.0.6"
+    },
+    "unplashapi": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "unplate": {
         "cmdline": [],
@@ -40783,6 +40910,11 @@
             "unsplash_search.unsplash"
         ],
         "version": "0.2.0"
+    },
+    "unsplashapi": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "unsplashbot": {
         "cmdline": [],
@@ -44799,6 +44931,11 @@
             "UpgradePipPackages"
         ],
         "version": "0.0.2"
+    },
+    "upgradepippkgs": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "upguard": {
         "cmdline": [],
@@ -49146,6 +49283,11 @@
         "version": "2.0"
     },
     "urbandictionary-py": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "urbandictionary-python": {
         "cmdline": [],
         "modules": [],
         "version": ""
@@ -56440,6 +56582,11 @@
         ],
         "version": "0.0.25"
     },
+    "userwatch-python": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "usethatpy": {
         "cmdline": [],
         "modules": [
@@ -60036,6 +60183,11 @@
         ],
         "version": "0.4.1"
     },
+    "utillc": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "utilless": {
         "cmdline": [],
         "modules": [
@@ -61482,6 +61634,11 @@
         ],
         "version": "1.1"
     },
+    "utils4algo": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "utils4dd": {
         "cmdline": [],
         "modules": [
@@ -61921,6 +62078,11 @@
             "UtimateTestingProjectWithUnexpectedName.functions"
         ],
         "version": "0.0.1"
+    },
+    "utime": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "utinni": {
         "cmdline": [],
@@ -63024,6 +63186,11 @@
             "UTuning.scorer"
         ],
         "version": "0.1.3"
+    },
+    "uturn-cli": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "utvsapitoken": {
         "cmdline": [],
@@ -67260,6 +67427,11 @@
             "uzmq.util"
         ],
         "version": "0.3.1"
+    },
+    "uzoenr": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "uzsoato-registry": {
         "cmdline": [],

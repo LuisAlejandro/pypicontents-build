@@ -811,6 +811,11 @@
         ],
         "version": "1.0.2.1"
     },
+    "k2u-ops-xx": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "k3awssign": {
         "cmdline": [],
         "modules": [
@@ -1244,6 +1249,11 @@
             "k3redisutil.synopsis"
         ],
         "version": "0.1.0"
+    },
+    "k3s-control-ao": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "k3s-status-lcd": {
         "cmdline": [],
@@ -11401,6 +11411,11 @@
         ],
         "version": "0.1.1"
     },
+    "kafka-python-dataclasses": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kafka-python-log-handler": {
         "cmdline": [],
         "modules": [
@@ -13764,11 +13779,6 @@
             "kai.kai"
         ],
         "version": "0.0.7"
-    },
-    "kai-ad-model-plugins": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.4.1"
     },
     "kai-template": {
         "cmdline": [],
@@ -20540,6 +20550,16 @@
         ],
         "version": "0.1.0"
     },
+    "kaniko-remote": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "kaniko-remote-docker-cli": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kanikumo-engine": {
         "cmdline": [],
         "modules": [
@@ -25880,11 +25900,6 @@
         ],
         "version": "0.3.2"
     },
-    "kaspi-kz-api": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
     "kaspy": {
         "cmdline": [],
         "modules": [
@@ -27941,11 +27956,6 @@
         "modules": [],
         "version": "1.2"
     },
-    "kautoperf": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.2.2"
-    },
     "kav-distributions": {
         "cmdline": [],
         "modules": [
@@ -29779,6 +29789,11 @@
         ],
         "version": "0.0.5"
     },
+    "kbgenerate": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kbgetter": {
         "cmdline": [],
         "modules": [
@@ -30146,6 +30161,11 @@
         ],
         "version": "1.0.7"
     },
+    "kcaptcha": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kcardum": {
         "cmdline": [],
         "modules": [
@@ -30295,6 +30315,11 @@
         "cmdline": [],
         "modules": [],
         "version": "0.0.7"
+    },
+    "kcevan": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kcexpr": {
         "cmdline": [],
@@ -30926,11 +30951,6 @@
             "kcuforms.validators"
         ],
         "version": "0.1.0.dev0"
-    },
-    "kcv": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.2.3"
     },
     "kcw": {
         "cmdline": [],
@@ -33094,6 +33114,11 @@
         ],
         "version": "1.1.0"
     },
+    "kebron-password-generator": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kecaja": {
         "cmdline": [],
         "modules": [
@@ -33274,11 +33299,6 @@
             "kedifa.updater"
         ],
         "version": "0.0.6"
-    },
-    "keditor": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.2.3"
     },
     "kedlang": {
         "cmdline": [],
@@ -34621,14 +34641,6 @@
             "application_example.example"
         ],
         "version": "0.0.1"
-    },
-    "keepcodingtest-david": {
-        "cmdline": [],
-        "modules": [
-            "aplication_example",
-            "aplication_example.example"
-        ],
-        "version": "0.0.2"
     },
     "keepcodingtest-jeanflores": {
         "cmdline": [],
@@ -44331,6 +44343,11 @@
         ],
         "version": "0.3.1dev"
     },
+    "kernel-knockoffs": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kernel-run": {
         "cmdline": [],
         "modules": [
@@ -47310,6 +47327,11 @@
         "modules": [],
         "version": ""
     },
+    "keyhold": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "keyholder": {
         "cmdline": [],
         "modules": [
@@ -47921,6 +47943,11 @@
             "keyring_pass"
         ],
         "version": "0.7.0"
+    },
+    "keyring-subprocess": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "keyring-vault-backend": {
         "cmdline": [],
@@ -52471,6 +52498,16 @@
         ],
         "version": "0.5"
     },
+    "khawniawmamuang": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "khawniewmamuang": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "khayyam": {
         "cmdline": [],
         "modules": [
@@ -52569,11 +52606,6 @@
             "khed.interface"
         ],
         "version": "0.0.2"
-    },
-    "khelper": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.0.4"
     },
     "khengol": {
         "cmdline": [],
@@ -56114,6 +56146,11 @@
         ],
         "version": "0.18"
     },
+    "kilbourn-modern-python": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kili": {
         "cmdline": [],
         "modules": [
@@ -56624,16 +56661,6 @@
             "kim_query.kim_query"
         ],
         "version": "3.0.0"
-    },
-    "kim-robot": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "kim-robot-oncall": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.4.4"
     },
     "kim2014convolutional": {
         "cmdline": [],
@@ -58679,6 +58706,11 @@
             "king_snake.player"
         ],
         "version": "2.0.0"
+    },
+    "kingsoftcloud-sdk-python": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kingspan-connect-sensor": {
         "cmdline": [],
@@ -62876,6 +62908,11 @@
         ],
         "version": "0.1.0"
     },
+    "kitefly": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kitefoil": {
         "cmdline": [],
         "modules": [],
@@ -63031,6 +63068,11 @@
         ],
         "version": "0.0.8"
     },
+    "kitman": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kitmin": {
         "cmdline": [],
         "modules": [
@@ -63178,6 +63220,11 @@
             "kitsu.models"
         ],
         "version": "0.1.1"
+    },
+    "kitsu-py-extended": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kitsu-wrapper": {
         "cmdline": [],
@@ -63384,6 +63431,11 @@
             "kitti3.main"
         ],
         "version": "0.4.1"
+    },
+    "kittiprofile": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kittrans": {
         "cmdline": [],
@@ -65728,6 +65780,11 @@
             "kivy_swr.remote_data"
         ],
         "version": "0.1.2"
+    },
+    "kivy-translate": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kivy-trio": {
         "cmdline": [],
@@ -68565,11 +68622,6 @@
         "version": "0.0.5"
     },
     "kkinstaunfollow": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "kkit": {
         "cmdline": [],
         "modules": [],
         "version": ""
@@ -72033,11 +72085,6 @@
         ],
         "version": "3.0.0"
     },
-    "klogtest": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.2.2"
-    },
     "klok": {
         "cmdline": [],
         "modules": [],
@@ -73699,16 +73746,6 @@
         ],
         "version": "0.1.1"
     },
-    "kml-model-dataset-sdk": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.2.3"
-    },
-    "kml-nvidia-smi": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.2.3"
-    },
     "kml-sdk": {
         "cmdline": [],
         "modules": [
@@ -73876,11 +73913,6 @@
             "kmon.kmonapi"
         ],
         "version": "0.1.6"
-    },
-    "kmonkey": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.3.2"
     },
     "kmor": {
         "cmdline": [],
@@ -74219,6 +74251,11 @@
             "venom.venom"
         ],
         "version": "0.2.0"
+    },
+    "kn-django-db-email-backend": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kn3": {
         "cmdline": [],
@@ -76761,11 +76798,6 @@
             "knoxth.views"
         ],
         "version": "0.0.3"
-    },
-    "knp": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.3.3"
     },
     "knp-utils": {
         "cmdline": [],
@@ -80666,11 +80698,6 @@
         ],
         "version": "0.3"
     },
-    "kok": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.1.2"
-    },
     "kokex": {
         "cmdline": [],
         "modules": [
@@ -82399,11 +82426,6 @@
             "kollocate.search"
         ],
         "version": "0.0.2"
-    },
-    "kollvmkit": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.2.1"
     },
     "kolm": {
         "cmdline": [],
@@ -85698,6 +85720,16 @@
         ],
         "version": "0.0.3"
     },
+    "kopl-engine-macos": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
+    "kopl-engine-ubuntu": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kopo4group4": {
         "cmdline": [],
         "modules": [
@@ -87738,6 +87770,11 @@
         ],
         "version": "0.0.3"
     },
+    "kosta-project": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kostal-ardexa": {
         "cmdline": [],
         "modules": [],
@@ -89741,16 +89778,6 @@
         ],
         "version": "0.2.1"
     },
-    "kperf": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.3.3"
-    },
-    "kperfnew": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.3.3"
-    },
     "kpfm": {
         "cmdline": [],
         "modules": [
@@ -91325,11 +91352,6 @@
             "kqray.kqray"
         ],
         "version": "0.0.1051"
-    },
-    "kqrcode": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.0.3"
     },
     "kqueen": {
         "cmdline": [],
@@ -95387,16 +95409,6 @@
         "modules": [],
         "version": "0.1.1"
     },
-    "krunner": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "krunner-inspector": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.4.1"
-    },
     "krupdf": {
         "cmdline": [],
         "modules": [
@@ -96367,19 +96379,6 @@
         ],
         "version": "1.1"
     },
-    "ks-django-response": {
-        "cmdline": [],
-        "modules": [
-            "ks_django_response",
-            "ks_django_response.response"
-        ],
-        "version": "1.3"
-    },
-    "ks-dynamic-chart": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.4.3"
-    },
     "ks-email-parser": {
         "cmdline": [],
         "modules": [
@@ -96569,11 +96568,6 @@
         ],
         "version": "0.1.0"
     },
-    "ks-ner": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.1.1"
-    },
     "ks-nlp": {
         "cmdline": [],
         "modules": [
@@ -96639,15 +96633,6 @@
             "ks.reference.referencezcml.metadirectives"
         ],
         "version": "1.0.1"
-    },
-    "ks-response": {
-        "cmdline": [],
-        "modules": [
-            "ks_response",
-            "ks_response.exceptions",
-            "ks_response.response"
-        ],
-        "version": "1.2"
     },
     "ks-schema": {
         "cmdline": [],
@@ -98069,36 +98054,6 @@
         ],
         "version": "0.0.3"
     },
-    "kspyclickhouse": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.1.1"
-    },
-    "kspyclickhouse-oversea": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.4.4"
-    },
-    "kspyclickhouse-sgp": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.2.1"
-    },
-    "kspyclickhouse-staging": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.3.2"
-    },
-    "kspydoris": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.0.3"
-    },
-    "kspydruid": {
-        "cmdline": [],
-        "modules": [],
-        "version": "3.1.1"
-    },
     "kspython": {
         "cmdline": [],
         "modules": [
@@ -98863,21 +98818,6 @@
             "kt17py.kt17"
         ],
         "version": "0.0.2"
-    },
-    "ktable": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.4.3"
-    },
-    "ktable-cli": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.0.2"
-    },
-    "ktable-tools": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.1.3"
     },
     "ktagz": {
         "cmdline": [],
@@ -100001,21 +99941,6 @@
             "kuaipandriver.test"
         ],
         "version": "0.5"
-    },
-    "kuaishou-workflow-proxy-sdk": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.3.2"
-    },
-    "kuaishoualgrithmproto": {
-        "cmdline": [],
-        "modules": [],
-        "version": "4.3.2"
-    },
-    "kuaishoualgrithmproto2": {
-        "cmdline": [],
-        "modules": [],
-        "version": "2.4.3"
     },
     "kuaishougetcnstring": {
         "cmdline": [],
@@ -105941,6 +105866,11 @@
         ],
         "version": "1.2.0"
     },
+    "kubeseal-auto": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kubesecret": {
         "cmdline": [],
         "modules": [],
@@ -107355,6 +107285,11 @@
             "tests.test_utils"
         ],
         "version": "3.0.1"
+    },
+    "kuflow-robotframework": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kuga": {
         "cmdline": [],
@@ -110863,6 +110798,11 @@
         "modules": [],
         "version": "0.0.0"
     },
+    "kw-pandora-dbmodels": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
+    },
     "kw-pandora-prototype-dbmodels": {
         "cmdline": [],
         "modules": [],
@@ -111103,21 +111043,6 @@
             "kwaddle.whatsapp"
         ],
         "version": "0.5"
-    },
-    "kwai-cpd": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "kwai-tidevice": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
-    },
-    "kwai-uiautomator-common": {
-        "cmdline": [],
-        "modules": [],
-        "version": ""
     },
     "kwak": {
         "cmdline": [],
@@ -112380,6 +112305,11 @@
             "kxg.tokens"
         ],
         "version": "0.2.0"
+    },
+    "kxmlparser": {
+        "cmdline": [],
+        "modules": [],
+        "version": ""
     },
     "kxy": {
         "cmdline": [
