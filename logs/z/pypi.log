@@ -2,7 +2,7 @@
 [INFO] Downloading package list from PyPI ...
 [ERROR] (z) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -31,7 +31,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (z-orm-pg) This package is up to date.
 [ERROR] (z-pkg) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -50,7 +50,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (z-probability) This package is up to date.
 [ERROR] (z-quantum-core) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -288,7 +288,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zabbix-docker-agent) This package is up to date.
 [INFO] (zabbix-ecs-connector) This package is up to date.
 [INFO] (zabbix-elasticsearch) This package is up to date.
-[INFO] (zabbix-enums) This package is up to date.
+[INFO] (zabbix-enums) Data has been updated for this package.
 [INFO] (zabbix-epics-py) This package is up to date.
 [INFO] (zabbix-exporter) This package is up to date.
 [INFO] (zabbix-feishu-alert) This package is up to date.
@@ -296,7 +296,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zabbix-lld) This package is up to date.
 [INFO] (zabbix-multisender) This package is up to date.
 [INFO] (zabbix-powerline-status) This package is up to date.
-[INFO] (zabbix-pyapi) This package is up to date.
 [INFO] (zabbix-sys) This package is up to date.
 [INFO] (zabbix-template-converter) This package is up to date.
 [INFO] (zabbix-tuner) This package is up to date.
@@ -309,24 +308,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zabbixctl) This package is up to date.
 [INFO] (zabbixproto) This package is up to date.
 [INFO] (zabbixproxysender) This package is up to date.
+[INFO] (zabbixpyapi) This package is up to date.
 [INFO] (zabbixqywechat) This package is up to date.
 [INFO] (zabbixsender) This package is up to date.
 [INFO] (zabbixsim) This package is up to date.
 [INFO] (zabbops) This package is up to date.
 [INFO] (zabel) This package is up to date.
 [INFO] (zabel-commons) This package is up to date.
-[ERROR] (zabel-elements) Could not extract data from this package. See below for details.
-
+[INFO] (zabel-elements) This package is up to date.
 [INFO] (zabel-fabric) This package is up to date.
 [INFO] (zaber-device) This package is up to date.
-[ERROR] (zaber-motion) Could not extract data from this package. See below for details.
-
-[ERROR] (zaber-motion-bindings-darwin) Could not extract data from this package. See below for details.
-
-[ERROR] (zaber-motion-bindings-linux) Could not extract data from this package. See below for details.
-
-[ERROR] (zaber-motion-bindings-windows) Could not extract data from this package. See below for details.
-
+[INFO] (zaber-motion) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-darwin) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-linux) Data has been updated for this package.
+[INFO] (zaber-motion-bindings-windows) Data has been updated for this package.
 [INFO] (zaber-serial) This package is up to date.
 [INFO] (zabier-cli) This package is up to date.
 [INFO] (zabuza) This package is up to date.
@@ -339,7 +334,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zachs-pypi-poc-a) This package is up to date.
 [ERROR] (zacieraczka) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -364,13 +359,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zad) This package is up to date.
 [ERROR] (zad2lukasz1928) This package does not have downloadable releases.
 [INFO] (zadacha) This package is up to date.
+[INFO] (zadachi-shest) This package is up to date.
 [INFO] (zadarapy) This package is up to date.
 [ERROR] (zadarest) This package does not have downloadable releases.
 [INFO] (zadeh) This package is up to date.
 [INFO] (zadnegoale) This package is up to date.
 [ERROR] (zaf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -398,6 +394,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zahidpdf2) This package is up to date.
 [INFO] (zahlabut) This package is up to date.
 [INFO] (zahlwort2num) This package is up to date.
+[INFO] (zahner-analysis) This package is up to date.
 [INFO] (zahner-potentiostat) This package is up to date.
 [ERROR] (zahpeeapi) This package does not have downloadable releases.
 [INFO] (zahwjucie) This package is up to date.
@@ -421,6 +418,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 This package download URL does not point to a valid file: "http://zak.wubook.net/download/"
 [INFO] (zakatqr) This package is up to date.
 [INFO] (zake) This package is up to date.
+[INFO] (zakevin) This package is up to date.
 [INFO] (zakhar-pycore) This package is up to date.
 [INFO] (zakpdf) This package is up to date.
 [ERROR] (zakuro) This package does not have downloadable releases.
@@ -451,6 +449,7 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (zama-sdk) This package is up to date.
 [INFO] (zamac) This package is up to date.
 [INFO] (zamba) This package is up to date.
+[INFO] (zambeze) This package is up to date.
 [INFO] (zambi) This package is up to date.
 [ERROR] (zamboni) This package does not have downloadable releases.
 [INFO] (zametki) This package is up to date.
@@ -474,20 +473,10 @@ This package download URL does not point to a valid file: "https://pypi.python.o
 [INFO] (zander) This package is up to date.
 [ERROR] (zanecoleriley-csmodule) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -508,7 +497,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zanpakuto) This package is up to date.
 [INFO] (zanquery) This package is up to date.
 [INFO] (zanshin) This package is up to date.
-[INFO] (zanshincli) This package is up to date.
+[INFO] (zanshincli) Data has been updated for this package.
 [INFO] (zanshinsdk) This package is up to date.
 [INFO] (zantedeschia) This package is up to date.
 [INFO] (zanthor) This package is up to date.
@@ -517,7 +506,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zanza) This package is up to date.
 [INFO] (zaoshu) This package is up to date.
 [INFO] (zap) This package is up to date.
-[INFO] (zap-automation-renderer) This package is up to date.
 [INFO] (zap-cli-v2) This package is up to date.
 [INFO] (zap-report-formatter) This package is up to date.
 [INFO] (zapbot) This package is up to date.
@@ -544,9 +532,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zappa-scheduler) This package is up to date.
 [INFO] (zappa-secrets-manager) This package is up to date.
 [INFO] (zappa-sentry) This package is up to date.
+[INFO] (zappa-teamturing) This package is up to date.
 [INFO] (zappa-troposphere) This package is up to date.
+[INFO] (zappa-warm) Data has been updated for this package.
 [INFO] (zappa2) This package is up to date.
 [INFO] (zappadock) This package is up to date.
+[INFO] (zapper) This package is up to date.
 [INFO] (zappi) This package is up to date.
 [INFO] (zappix) This package is up to date.
 [INFO] (zapps) This package is up to date.
@@ -595,7 +586,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zathura) This package is up to date.
 [ERROR] (zato) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -625,10 +616,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zato-vault-client) This package is up to date.
 [INFO] (zato-websocket-client) This package is up to date.
 [INFO] (zava) This package is up to date.
+[INFO] (zavod) This package is up to date.
 [INFO] (zawarudo) This package is up to date.
 [INFO] (zax) This package is up to date.
 [INFO] (zayats) This package is up to date.
-[INFO] (zaz3) This package is up to date.
 [INFO] (zazo) This package is up to date.
 [INFO] (zazu) This package is up to date.
 [INFO] (zb) This package is up to date.
@@ -664,7 +655,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zbrojimiga-fsucic) This package is up to date.
 [ERROR] (zbs-pkgs) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -695,7 +686,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zbxsend) This package is up to date.
 [ERROR] (zbxtool) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -829,20 +820,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcash-service-status-manan-monga) This package is up to date.
 [ERROR] (zcatalyst) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -859,7 +840,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcbe) This package is up to date.
 [ERROR] (zcbin) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -877,8 +858,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zcbor) This package is up to date.
 [INFO] (zcc) This package is up to date.
-[ERROR] (zcc-helper) Could not extract data from this package. See below for details.
-
+[INFO] (zcc-helper) This package is up to date.
 [INFO] (zcc-math) This package is up to date.
 [INFO] (zcc-utils) This package is up to date.
 [INFO] (zcddbclient) This package is up to date.
@@ -892,8 +872,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcli) This package is up to date.
 [INFO] (zclient) This package is up to date.
 [INFO] (zcls) This package is up to date.
-[ERROR] (zcls2) Could not extract data from this package. See below for details.
-
+[INFO] (zcls2) This package is up to date.
 [INFO] (zcluster) This package is up to date.
 [INFO] (zcm) This package is up to date.
 [INFO] (zcmd) This package is up to date.
@@ -905,8 +884,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (zcode-system-discount) Could not extract data from this package. See below for details.
 "https://files.pythonhosted.org/packages/ee/12/be3a221a96613e70cae22ab5d8b89d69986eb0ad46ed786544eea225c285/zcode%20system%20discount-1.tar.gz" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
@@ -923,20 +902,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zcodetokenizers) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -958,13 +927,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcommands-zx) This package is up to date.
 [INFO] (zcommon) This package is up to date.
 [INFO] (zcommon4py) This package is up to date.
+[INFO] (zcommons) This package is up to date.
 [INFO] (zconfig) This package is up to date.
 [INFO] (zconfig-watchedfile) This package is up to date.
 [INFO] (zconfigparser) This package is up to date.
 [INFO] (zcons) This package is up to date.
 [ERROR] (zconsole) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -991,20 +961,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcrmsdk) This package is up to date.
 [ERROR] (zcrmsdk-2-1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -1026,7 +986,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcx811) This package is up to date.
 [ERROR] (zcxpip) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1044,7 +1004,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zcxpip1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1062,20 +1022,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zcxuutil) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -1091,6 +1041,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zcy-test) This package is up to date.
 [INFO] (zcz) This package is up to date.
 [INFO] (zd) This package is up to date.
+[INFO] (zd-testt) This package is up to date.
 [INFO] (zdaemon) This package is up to date.
 [INFO] (zdairi) This package is up to date.
 [INFO] (zdansfil-left-pad) This package is up to date.
@@ -1127,16 +1078,19 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zdpapi-mysql) This package is up to date.
 [INFO] (zdpapi-router) This package is up to date.
 [INFO] (zdpapi-ssh) This package is up to date.
+[INFO] (zdppy-api) This package is up to date.
 [INFO] (zdppy-code) This package is up to date.
 [INFO] (zdppy-fastapi) This package is up to date.
 [INFO] (zdppy-json) This package is up to date.
 [INFO] (zdppy-log) This package is up to date.
 [INFO] (zdppy-mysql) This package is up to date.
+[INFO] (zdppy-orm) This package is up to date.
 [INFO] (zdppy-password) This package is up to date.
 [INFO] (zdppy-redis) This package is up to date.
 [INFO] (zdppy-requests) This package is up to date.
 [INFO] (zdppy-toml) This package is up to date.
 [INFO] (zdppy-yaml) This package is up to date.
+[INFO] (zdpy) This package is up to date.
 [INFO] (zdpytpol8-projekt) This package is up to date.
 [INFO] (zdpytpol8projekt) This package is up to date.
 [ERROR] (zdq-fortest) This package does not have downloadable releases.
@@ -1149,6 +1103,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zdsync) This package is up to date.
 [INFO] (zdup) This package is up to date.
 [INFO] (zdutil) This package is up to date.
+[INFO] (zdxtest1) This package is up to date.
+[INFO] (zdxtools) This package is up to date.
 [INFO] (zdy-learn-class) This package is up to date.
 [INFO] (zdy-learning) This package is up to date.
 [INFO] (zdy-learning3) This package is up to date.
@@ -1188,27 +1144,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zebracorn) This package is up to date.
 [INFO] (zebrapl) This package is up to date.
 [INFO] (zebras) This package is up to date.
-[ERROR] (zebrazoom) Could not extract data from this package. See below for details.
-
+[INFO] (zebrazoom) Data has been updated for this package.
 [INFO] (zebrunnerpy) This package is up to date.
 [INFO] (zebu) This package is up to date.
 [INFO] (zebull) This package is up to date.
 [ERROR] (zebull-trade) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -1231,6 +1176,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zedcode) This package is up to date.
 [INFO] (zeddo) This package is up to date.
 [INFO] (zedit) This package is up to date.
+[INFO] (zedmath) This package is up to date.
 [INFO] (zedsuite) This package is up to date.
 [INFO] (zeebe-grpc) This package is up to date.
 [INFO] (zeebe-worker) This package is up to date.
@@ -1252,7 +1198,7 @@ Unsupported package directory structure.
 This package download URL does not point to a valid file: "http://zeep-messaging.googlecode.com/svn/python/trunk#egg=zeep.sms"
 [ERROR] (zeepoptesting) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1276,7 +1222,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeffclient) This package is up to date.
 [ERROR] (zeffee) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1294,7 +1240,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zefram) This package is up to date.
 [INFO] (zegami-cli) This package is up to date.
-[INFO] (zegami-sdk) This package is up to date.
+[INFO] (zegami-sdk) Data has been updated for this package.
 [INFO] (zegami-sdk-testrelease) This package is up to date.
 [INFO] (zeigen) This package is up to date.
 [INFO] (zeinab-handy) This package is up to date.
@@ -1304,13 +1250,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeit-online) This package is up to date.
 [INFO] (zeit-shipit) This package is up to date.
 [INFO] (zeitapi) This package is up to date.
+[INFO] (zeitgeber) This package is up to date.
 [INFO] (zeitgeist) This package is up to date.
 [INFO] (zeitgitterd) This package is up to date.
 [INFO] (zeither) This package is up to date.
 [INFO] (zeitig) This package is up to date.
 [INFO] (zeitsprung) This package is up to date.
-[ERROR] (zeitzono) Could not extract data from this package. See below for details.
-
+[INFO] (zeitzono) This package is up to date.
 [INFO] (zeke) This package is up to date.
 [INFO] (zekeconv) This package is up to date.
 [INFO] (zekrpack-reader) This package is up to date.
@@ -1320,7 +1266,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeliapdf) This package is up to date.
 [ERROR] (zeligg) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1336,9 +1282,11 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (zellij) This package is up to date.
 [INFO] (zelos) This package is up to date.
 [INFO] (zelos-crashd) This package is up to date.
 [INFO] (zelt) This package is up to date.
+[INFO] (zelus) This package is up to date.
 [INFO] (zemaxglass) This package is up to date.
 [INFO] (zembed) This package is up to date.
 [INFO] (zemberek-grpc) This package is up to date.
@@ -1358,8 +1306,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zen-git) This package is up to date.
 [INFO] (zen-grip) This package is up to date.
 [INFO] (zen-involute) This package is up to date.
-[ERROR] (zen-knit) Could not extract data from this package. See below for details.
-
+[INFO] (zen-knit) This package is up to date.
 [INFO] (zen-lib) This package is up to date.
 [INFO] (zen-matematika-yanwarsolah) This package is up to date.
 [INFO] (zen-mechanizm) This package is up to date.
@@ -1375,6 +1322,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zen-screw-bolt) This package is up to date.
 [INFO] (zen-sj-nester) This package is up to date.
 [INFO] (zen-spring) This package is up to date.
+[INFO] (zen3geo) This package is up to date.
 [INFO] (zenaton) This package is up to date.
 [INFO] (zenbot) This package is up to date.
 [INFO] (zenbu) This package is up to date.
@@ -1405,7 +1353,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenefits-client) This package is up to date.
 [ERROR] (zenefits-event-logger) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1432,8 +1380,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenghui) This package is up to date.
 [INFO] (zengin-code) This package is up to date.
 [INFO] (zengine) This package is up to date.
-[ERROR] (zengl) Could not extract data from this package. See below for details.
-
+[INFO] (zengl) This package is up to date.
 [INFO] (zenhan) This package is up to date.
 [INFO] (zenhest) This package is up to date.
 [INFO] (zenipy) This package is up to date.
@@ -1452,9 +1399,29 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenmoney) This package is up to date.
 [INFO] (zenner-nester) This package is up to date.
 [INFO] (zennit) This package is up to date.
+[INFO] (zennit-crp) Data has been updated for this package.
 [INFO] (zennla) This package is up to date.
 [INFO] (zeno) This package is up to date.
 [INFO] (zeno-distributions) This package is up to date.
+[INFO] (zeno-etl-libs) This package is up to date.
+[ERROR] (zeno-etl-pkg) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (zeno-first-presentation) This package is up to date.
 [INFO] (zeno-youtube) This package is up to date.
 [INFO] (zenodio) This package is up to date.
@@ -1462,8 +1429,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenodo-accessrequests) This package is up to date.
 [INFO] (zenodo-client) This package is up to date.
 [INFO] (zenodo-get) This package is up to date.
-[ERROR] (zenodo-rest) Could not extract data from this package. See below for details.
-
+[INFO] (zenodo-rest) This package is up to date.
 [INFO] (zenodoclient) This package is up to date.
 [INFO] (zenodopy) This package is up to date.
 [INFO] (zenoh) This package is up to date.
@@ -1471,6 +1437,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zenomatic) This package is up to date.
 [INFO] (zenoml) This package is up to date.
 [INFO] (zenon) This package is up to date.
+[INFO] (zenopy) This package is up to date.
 [INFO] (zenora) This package is up to date.
 [INFO] (zenoss) This package is up to date.
 [INFO] (zenoss-fork) This package is up to date.
@@ -1505,6 +1472,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zensols-hostcon) This package is up to date.
 [INFO] (zensols-install) This package is up to date.
 [INFO] (zensols-mednlp) This package is up to date.
+[INFO] (zensols-mimic) This package is up to date.
 [INFO] (zensols-ngramdb) This package is up to date.
 [INFO] (zensols-nlp) This package is up to date.
 [INFO] (zensols-pybuild) This package is up to date.
@@ -1517,6 +1485,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zentropi) This package is up to date.
 [INFO] (zentuxlog-client) This package is up to date.
 [INFO] (zentx) This package is up to date.
+[INFO] (zenutils) This package is up to date.
 [INFO] (zenv) This package is up to date.
 [INFO] (zenv-cli) This package is up to date.
 [INFO] (zenwarch) This package is up to date.
@@ -1528,39 +1497,30 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeomega-recipe-mxodbcconnect) This package is up to date.
 [INFO] (zeonapi) This package is up to date.
 [INFO] (zeorawdata) This package is up to date.
-[ERROR] (zepben-auth) Could not extract data from this package. See below for details.
-
+[INFO] (zepben-auth) This package is up to date.
 [INFO] (zepben-cimbend) This package is up to date.
 [INFO] (zepben-eas) This package is up to date.
 [INFO] (zepben-evolve) This package is up to date.
-[ERROR] (zepben-opendss) Could not extract data from this package. See below for details.
-
+[INFO] (zepben-opendss) This package is up to date.
 [INFO] (zepben-protobuf) This package is up to date.
 [INFO] (zepel) This package is up to date.
 [INFO] (zeph) This package is up to date.
+[INFO] (zephony) This package is up to date.
+[INFO] (zephony-helpers) This package is up to date.
 [INFO] (zephserver) This package is up to date.
 [ERROR] (zephyr) This package does not have downloadable releases.
 [INFO] (zephyr-behave) This package is up to date.
 [INFO] (zephyr-bootstrap) This package is up to date.
+[INFO] (zephyr-results-publisher) This package is up to date.
 [INFO] (zephyr-sdk) This package is up to date.
 [INFO] (zephyr-seis) This package is up to date.
 [INFO] (zephyr-uploader) This package is up to date.
 [ERROR] (zephyrpython27pkg) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -1575,20 +1535,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zephyrpython34pkg) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -1631,6 +1581,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zerial) This package is up to date.
 [INFO] (zerigodns) This package is up to date.
 [INFO] (zerionapi) This package is up to date.
+[INFO] (zerionpy) This package is up to date.
 [INFO] (zermelo-py) This package is up to date.
 [INFO] (zermeloapi) This package is up to date.
 [INFO] (zernike) This package is up to date.
@@ -1644,14 +1595,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zero-example) This package is up to date.
 [INFO] (zero-hid) This package is up to date.
 [INFO] (zero-ilumi-calculadora-package) This package is up to date.
+[INFO] (zero-knowledge-access-pass-authorizer) This package is up to date.
 [INFO] (zero-play) This package is up to date.
+[INFO] (zero-sdk) This package is up to date.
 [INFO] (zero-shot-re) This package is up to date.
 [INFO] (zero-socialauth) This package is up to date.
 [INFO] (zero-thumbnails) This package is up to date.
 [INFO] (zero-two) This package is up to date.
 [INFO] (zero-users) This package is up to date.
-[ERROR] (zero-width-lib) Could not extract data from this package. See below for details.
-
+[INFO] (zero-width-lib) This package is up to date.
 [INFO] (zeroae-cli) This package is up to date.
 [INFO] (zeroae-goblet) This package is up to date.
 [INFO] (zeroapi) This package is up to date.
@@ -1685,6 +1637,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zerodb-server) This package is up to date.
 [INFO] (zerodbext-catalog) This package is up to date.
 [INFO] (zerodeg) This package is up to date.
+[INFO] (zerodha-without-api) Data has been updated for this package.
 [INFO] (zerodoc) This package is up to date.
 [INFO] (zeroed) This package is up to date.
 [INFO] (zeroframe-ws-client) This package is up to date.
@@ -1695,13 +1648,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeroguard-cli) This package is up to date.
 [INFO] (zeroguard-sdk) This package is up to date.
 [INFO] (zerohash-python) This package is up to date.
-[ERROR] (zeroinger) Could not extract data from this package. See below for details.
-
+[INFO] (zeroinger) This package is up to date.
 [INFO] (zerokspot-recipe-distutils) This package is up to date.
 [INFO] (zerokspot-recipe-git) This package is up to date.
 [ERROR] (zerolab-django-email-views) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1761,7 +1713,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zerotk-jenkins-job-builder-pipeline) This package is up to date.
 [INFO] (zerotk-lib) This package is up to date.
 [INFO] (zerotk-reraiseit) This package is up to date.
-[INFO] (zerotk-url2env) This package is up to date.
+[INFO] (zerotk-url2env) Data has been updated for this package.
 [INFO] (zerotk-virtualenv-api) This package is up to date.
 [INFO] (zerotk-xml-factory) This package is up to date.
 [INFO] (zerotk-zops) This package is up to date.
@@ -1795,8 +1747,7 @@ This package download URL does not point to a valid file: "https://svn.createtan
 [INFO] (zest-zodbupdate) This package is up to date.
 [INFO] (zester) This package is up to date.
 [INFO] (zestful-parse-ingredient) This package is up to date.
-[ERROR] (zestreleaser-towncrier) Could not extract data from this package. See below for details.
-
+[INFO] (zestreleaser-towncrier) This package is up to date.
 [INFO] (zesty-poker) This package is up to date.
 [INFO] (zesty-zbs-api) This package is up to date.
 [INFO] (zesty-zbs-api-1621) This package is up to date.
@@ -1804,7 +1755,7 @@ This package download URL does not point to a valid file: "https://svn.createtan
 [INFO] (zestyparser) This package is up to date.
 [ERROR] (zet) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1820,6 +1771,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (zet-cli) This package is up to date.
 [INFO] (zeta) This package is up to date.
 [INFO] (zetalib) This package is up to date.
 [INFO] (zetalibrary) This package is up to date.
@@ -1833,7 +1785,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zetastitcher) This package is up to date.
 [INFO] (zetcode-zh) This package is up to date.
 [INFO] (zetest) This package is up to date.
-[INFO] (zett) This package is up to date.
+[INFO] (zetsubou) This package is up to date.
 [INFO] (zettelgeist) This package is up to date.
 [INFO] (zettelkasten) This package is up to date.
 [INFO] (zettels) This package is up to date.
@@ -1858,13 +1810,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zeus-mcmc) This package is up to date.
 [INFO] (zeusai-py) This package is up to date.
 [INFO] (zeuscord) This package is up to date.
+[INFO] (zeustheinvestigator) This package is up to date.
 [INFO] (zevcrack) This package is up to date.
 [INFO] (zevents) This package is up to date.
 [INFO] (zever-local) This package is up to date.
 [INFO] (zeversolar-api) This package is up to date.
 [INFO] (zeversolarlocal) This package is up to date.
-[INFO] (zevit-aih-sdk) This package is up to date.
-[INFO] (zevon) This package is up to date.
+[INFO] (zevit-aih-sdk) Data has been updated for this package.
+[INFO] (zevon) Data has been updated for this package.
 [INFO] (zevvle-python-sdk) This package is up to date.
 [INFO] (zexceptions) This package is up to date.
 [INFO] (zexfn) This package is up to date.
@@ -1881,6 +1834,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zfec) This package is up to date.
 [INFO] (zfhe) This package is up to date.
 [INFO] (zfhello) This package is up to date.
+[INFO] (zfista) This package is up to date.
 [INFO] (zfit) This package is up to date.
 [INFO] (zfit-interface) This package is up to date.
 [INFO] (zfit-physics) This package is up to date.
@@ -1914,27 +1868,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zfun) This package is up to date.
 [INFO] (zfunds-services) This package is up to date.
 [INFO] (zfutils) This package is up to date.
-[ERROR] (zfxgtest) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
-    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
-  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
 [ERROR] (zg2p) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -1951,7 +1887,6 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zga) This package is up to date.
-[INFO] (zgeo) This package is up to date.
 [INFO] (zgeo-atom) This package is up to date.
 [INFO] (zgeo-geographer) This package is up to date.
 [INFO] (zgeo-kml) This package is up to date.
@@ -1961,24 +1896,6 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zgeo-recipe-openlayers) This package is up to date.
 [INFO] (zgeo-spatialindex) This package is up to date.
 [INFO] (zgeo-wfs) This package is up to date.
-[ERROR] (zgeo2) Could not get a response from API for this package. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
-    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
-  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
 [INFO] (zget) This package is up to date.
 [INFO] (zgh0241) This package is up to date.
 [INFO] (zgitignore) This package is up to date.
@@ -1992,6 +1909,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zgulde) This package is up to date.
 [INFO] (zgw-auth-backend) This package is up to date.
 [INFO] (zgw-consumers) This package is up to date.
+[INFO] (zgwtest) This package is up to date.
 [INFO] (zgy-first-bao) This package is up to date.
 [INFO] (zgy2sgz) This package is up to date.
 [INFO] (zgyio) This package is up to date.
@@ -2020,7 +1938,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhanglei) This package is up to date.
 [ERROR] (zhangpsuperlist) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2038,7 +1956,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zhangpsupetlist) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2056,7 +1974,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zhangsan12345-birds) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2073,23 +1991,14 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zhangsan12345abc) This package is up to date.
+[INFO] (zhangtcd) This package is up to date.
 [INFO] (zhangte) This package is up to date.
 [ERROR] (zhangte-test) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -2127,20 +2036,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhaoyangtest) This package is up to date.
 [ERROR] (zhaoyumotifgraph) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -2163,7 +2062,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhengen-src) This package is up to date.
 [INFO] (zhengxiang) This package is up to date.
 [INFO] (zhenxun-bot) This package is up to date.
-[INFO] (zheshiwodemokuai1) This package is up to date.
+[ERROR] (zheshiwodemokuai1) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (zheyang) This package is up to date.
 [INFO] (zhfirstpypi) This package is up to date.
 [INFO] (zhfnote) This package is up to date.
@@ -2172,8 +2088,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhifubaosdk) This package is up to date.
 [INFO] (zhihu) This package is up to date.
 [INFO] (zhihu-cli) This package is up to date.
-[ERROR] (zhihu-crawler) Could not extract data from this package. See below for details.
-
+[INFO] (zhihu-crawler) This package is up to date.
 [INFO] (zhihu-oauth) This package is up to date.
 [INFO] (zhihu-py3) This package is up to date.
 [INFO] (zhihu-qrcode-login) This package is up to date.
@@ -2190,7 +2105,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhinst-labber) This package is up to date.
 [ERROR] (zhinst-plotter) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2232,11 +2147,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zhn-nester) This package is up to date.
 [INFO] (zhon) This package is up to date.
 [INFO] (zhong-hong-hvac) This package is up to date.
+[INFO] (zhongguo-nanxing-jiuji-jinhua-shouce-v2) This package is up to date.
 [INFO] (zhongguolib) This package is up to date.
+[INFO] (zhonghong-climate) Data has been updated for this package.
+[INFO] (zhongji-miansha) This package is up to date.
 [INFO] (zhongkui-core) This package is up to date.
 [INFO] (zhonglp) This package is up to date.
-[ERROR] (zhongtukexin-test) Could not extract data from this package. See below for details.
-
+[INFO] (zhongtukexin-test) This package is up to date.
+[INFO] (zhongwen) Data has been updated for this package.
 [INFO] (zhongzhuoragan) This package is up to date.
 [INFO] (zhongzhuproject) This package is up to date.
 [INFO] (zhora) This package is up to date.
@@ -2258,6 +2176,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (zhruby) This package is up to date.
 [INFO] (zhsq-toolbox) This package is up to date.
 [INFO] (zhtest) This package is up to date.
+[INFO] (zhtml) This package is up to date.
 [INFO] (zhtools) This package is up to date.
 [INFO] (zhttp) This package is up to date.
 [INFO] (zhtts) This package is up to date.
@@ -2265,8 +2184,10 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (zhu-nester) This package is up to date.
 [INFO] (zhu2018) This package is up to date.
 [INFO] (zhuanzhuanbktutil) This package is up to date.
+[INFO] (zhuchen-1) This package is up to date.
 [INFO] (zhudb) This package is up to date.
 [INFO] (zhue) This package is up to date.
+[INFO] (zhufo-tools) This package is up to date.
 [INFO] (zhugc-study-math) This package is up to date.
 [INFO] (zhuguli) This package is up to date.
 [INFO] (zhuhegege) This package is up to date.
@@ -2279,6 +2200,24 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (zhulong3) This package is up to date.
 [INFO] (zhulong4) This package is up to date.
 [INFO] (zhulong5) This package is up to date.
+[ERROR] (zhuolong-li) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (zhupengfei-eleme) This package is up to date.
 [INFO] (zhupengjuntest) This package is up to date.
 [INFO] (zhushengwen) This package is up to date.
@@ -2287,7 +2226,7 @@ This package download URL does not point to a valid file: "http://code.google.co
 [INFO] (zhuxinyupakage-nester) This package is up to date.
 [ERROR] (zhuyoucou) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2305,14 +2244,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zhuzhibiao) This package is up to date.
 [INFO] (zhuzuwei-nester) This package is up to date.
+[INFO] (zhwanfirst) This package is up to date.
 [INFO] (zhx) This package is up to date.
 [INFO] (zhy-dash-comp) This package is up to date.
+[INFO] (zhyscrapy) This package is up to date.
 [INFO] (zhyuoct-nester) This package is up to date.
 [INFO] (zhznester) This package is up to date.
 [INFO] (zi) This package is up to date.
 [INFO] (zi-api-auth-client) This package is up to date.
 [INFO] (zi-dct0) This package is up to date.
 [INFO] (zi-i18n) This package is up to date.
+[INFO] (zi-qq) This package is up to date.
 [INFO] (zia) This package is up to date.
 [INFO] (ziafont) This package is up to date.
 [INFO] (ziamath) This package is up to date.
@@ -2321,6 +2263,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zibal) This package is up to date.
 [INFO] (zibal-django) This package is up to date.
 [INFO] (zibalplatform) This package is up to date.
+[INFO] (zibasiccalculator) This package is up to date.
 [INFO] (zibekesu) This package is up to date.
 [INFO] (zibrato) This package is up to date.
 [INFO] (zicbee) This package is up to date.
@@ -2330,6 +2273,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zicbee-mpris) This package is up to date.
 [INFO] (zicbee-vlc) This package is up to date.
 [INFO] (zict) This package is up to date.
+[INFO] (zicutter) Data has been updated for this package.
 [INFO] (zidiscord-py) This package is up to date.
 [INFO] (zids) This package is up to date.
 [INFO] (zif-gzipper) This package is up to date.
@@ -2340,7 +2284,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zif-xtemplate) This package is up to date.
 [ERROR] (ziffa) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2365,10 +2309,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ziggie) This package is up to date.
 [INFO] (ziggo-mediabox-xl) This package is up to date.
 [INFO] (ziggof1broadcasts) This package is up to date.
-[INFO] (ziggonext) This package is up to date.
 [ERROR] (ziggonext-pl) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2386,7 +2329,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (ziggonextpl) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2413,15 +2356,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zignal) This package is up to date.
 [INFO] (zignor) This package is up to date.
 [INFO] (zigpackage) This package is up to date.
-[INFO] (zigpy) This package is up to date.
+[INFO] (zigpy) Data has been updated for this package.
 [INFO] (zigpy-cc) This package is up to date.
 [INFO] (zigpy-deconz) This package is up to date.
 [INFO] (zigpy-homeassistant) This package is up to date.
 [INFO] (zigpy-xbee) This package is up to date.
 [INFO] (zigpy-xbee-homeassistant) This package is up to date.
-[ERROR] (zigpy-zigate) Could not extract data from this package. See below for details.
-
-[INFO] (zigpy-znp) This package is up to date.
+[INFO] (zigpy-zigate) This package is up to date.
+[INFO] (zigpy-znp) Data has been updated for this package.
 [INFO] (zigzag) This package is up to date.
 [INFO] (zihaopython) This package is up to date.
 [INFO] (zihaothird) This package is up to date.
@@ -2439,9 +2381,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zikauf4final) This package is up to date.
 [INFO] (zikt) This package is up to date.
 [INFO] (zilch) This package is up to date.
+[INFO] (zilean) This package is up to date.
 [INFO] (zilepackagetest) This package is up to date.
-[ERROR] (zilian-mssql-django) Could not extract data from this package. See below for details.
-
+[INFO] (zilian-mssql-django) This package is up to date.
 [INFO] (zilingo-airflow-utils-test) This package is up to date.
 [INFO] (zilingo-recomm-utils) This package is up to date.
 [INFO] (zilla) This package is up to date.
@@ -2454,8 +2396,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zillionare-omega) This package is up to date.
 [INFO] (zillionare-omega-adaptors-jq) This package is up to date.
 [INFO] (zillionare-omicron) This package is up to date.
-[ERROR] (zillionare-trader-client) Could not extract data from this package. See below for details.
-
+[INFO] (zillionare-trader-client) This package is up to date.
 [INFO] (zilliqa-etl) This package is up to date.
 [INFO] (zillow) This package is up to date.
 [INFO] (zillowapi) This package is up to date.
@@ -2477,8 +2418,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zimports) This package is up to date.
 [INFO] (zimpute) This package is up to date.
 [INFO] (zimscan) This package is up to date.
-[ERROR] (zimscraperlib) Could not extract data from this package. See below for details.
-
+[INFO] (zimscraperlib) This package is up to date.
 [INFO] (zimsoap) This package is up to date.
 [INFO] (zimupy) This package is up to date.
 [INFO] (zimuzu) This package is up to date.
@@ -2487,14 +2427,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zinc-cli) This package is up to date.
 [INFO] (zinc-dns) This package is up to date.
 [INFO] (zincbase) This package is up to date.
+[INFO] (zincsearch-sdk) This package is up to date.
 [INFO] (zind) This package is up to date.
 [INFO] (zindex) This package is up to date.
 [INFO] (zineb) This package is up to date.
 [INFO] (zineb-scrapper) This package is up to date.
-[INFO] (zinebhelp) This package is up to date.
 [INFO] (zinebuildout) This package is up to date.
 [INFO] (zinfoexport) This package is up to date.
 [INFO] (zing) This package is up to date.
+[INFO] (zingg) This package is up to date.
 [INFO] (zinggnnester) This package is up to date.
 [INFO] (zinglplotter) This package is up to date.
 [INFO] (zingynester) This package is up to date.
@@ -2545,18 +2486,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipa) This package is up to date.
 [INFO] (zipaccess) This package is up to date.
 [INFO] (zipapi-us) This package is up to date.
+[INFO] (zipapp-utils) This package is up to date.
 [INFO] (zipapps) This package is up to date.
 [ERROR] (zipath) This package does not have downloadable releases.
 [INFO] (zipatopy) This package is up to date.
 [INFO] (zipbiaschecker) This package is up to date.
 [INFO] (zipbomb) This package is up to date.
+[INFO] (zipcapture) This package is up to date.
 [INFO] (zipch) This package is up to date.
 [INFO] (zipcode) This package is up to date.
 [INFO] (zipcode-to-map) This package is up to date.
 [INFO] (zipcodeignoresamethread) This package is up to date.
 [ERROR] (zipcodepy) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2575,6 +2518,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipcodes) This package is up to date.
 [INFO] (zipcodes-in) This package is up to date.
 [INFO] (zipcodetw) This package is up to date.
+[INFO] (zipcommon) This package is up to date.
 [INFO] (zipcreator) This package is up to date.
 [INFO] (zipdbm) This package is up to date.
 [INFO] (zipdep-py) This package is up to date.
@@ -2617,20 +2561,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipkin-agent) This package is up to date.
 [ERROR] (zipkin-query) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -2655,7 +2589,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipline-live) This package is up to date.
 [INFO] (zipline-live2) This package is up to date.
 [INFO] (zipline-live2-vk) This package is up to date.
-[INFO] (zipline-norgatedata) This package is up to date.
+[INFO] (zipline-norgatedata) Data has been updated for this package.
 [INFO] (zipline-poloniex) This package is up to date.
 [INFO] (zipline-reloaded) This package is up to date.
 [INFO] (zipline-trader) This package is up to date.
@@ -2665,27 +2599,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipmigo) This package is up to date.
 [INFO] (zipnish) This package is up to date.
 [INFO] (zipo) This package is up to date.
-[INFO] (zipp) This package is up to date.
+[INFO] (zipp) Data has been updated for this package.
 [ERROR] (zippath) This package does not have downloadable releases.
-[ERROR] (zipped-album-player) Could not extract data from this package. See below for details.
-"https://files.pythonhosted.org/packages/18/c1/4cf933b941751ab3f5b4bfa7c6b1946c9a56feaea2f4a3387f9a5957aad9/Zipped%20Album%20Player-0.3.1.tar.gz" file could not be downloaded. See below for details.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
-  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
-    return self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 404: Not Found
-
+[INFO] (zipped-album-player) This package is up to date.
 [INFO] (zipper) This package is up to date.
 [INFO] (zipper-easy-module) This package is up to date.
 [INFO] (zippie) This package is up to date.
@@ -2706,6 +2622,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ziproto) This package is up to date.
 [INFO] (zips) This package is up to date.
 [INFO] (zipseeker) This package is up to date.
+[INFO] (zipsteganograpy) Data has been updated for this package.
 [INFO] (zipstream) This package is up to date.
 [INFO] (zipstream-new) This package is up to date.
 [INFO] (zipstream-new-2) This package is up to date.
@@ -2713,19 +2630,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zipstreamer) This package is up to date.
 [INFO] (ziptastic-python) This package is up to date.
 [INFO] (ziptests) This package is up to date.
-[ERROR] (ziptool) Could not extract data from this package. See below for details.
-
+[INFO] (ziptool) This package is up to date.
 [INFO] (ziptools) This package is up to date.
 [ERROR] (ziptz) This package does not have downloadable releases.
 [INFO] (zipunicode) This package is up to date.
 [INFO] (ziqiang) This package is up to date.
 [INFO] (zirc) This package is up to date.
+[INFO] (zirconium) This package is up to date.
 [INFO] (zirkus) This package is up to date.
 [INFO] (ziroom-watcher) This package is up to date.
 [INFO] (zirpu-utils) This package is up to date.
 [INFO] (zisan) This package is up to date.
 [INFO] (zish) This package is up to date.
 [INFO] (zish-antlr) This package is up to date.
+[INFO] (zishen-heike-shentou-heimu) This package is up to date.
 [INFO] (zisraw) This package is up to date.
 [INFO] (zissou) This package is up to date.
 [INFO] (zit) This package is up to date.
@@ -2733,6 +2651,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zither) This package is up to date.
 [INFO] (ziti) This package is up to date.
 [INFO] (zitncov) This package is up to date.
+[INFO] (zitokenizer) This package is up to date.
 [INFO] (zitpyvat) This package is up to date.
 [INFO] (ziu) This package is up to date.
 [INFO] (ziva) This package is up to date.
@@ -2744,22 +2663,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zixin) This package is up to date.
 [INFO] (ziz) This package is up to date.
 [INFO] (zizu-first-package) This package is up to date.
+[INFO] (zj-utils-zjj421) This package is up to date.
 [ERROR] (zjb) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -2776,7 +2686,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zjk-try) This package is up to date.
 [ERROR] (zjkdemo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2801,7 +2711,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zjq-01) This package is up to date.
 [ERROR] (zjunwei-demo) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2819,7 +2729,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zjunwei-demo1) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2836,12 +2746,12 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zjunweidemo) This package is up to date.
+[INFO] (zjutcv) This package is up to date.
 [INFO] (zjutils) This package is up to date.
 [INFO] (zjw) This package is up to date.
 [INFO] (zjw-pkgdemo) This package is up to date.
 [INFO] (zjwbox) This package is up to date.
 [INFO] (zjwocr) This package is up to date.
-[INFO] (zjwt) This package is up to date.
 [INFO] (zjx-naruto) This package is up to date.
 [INFO] (zjy-demo) This package is up to date.
 [INFO] (zjy-easyplot) This package is up to date.
@@ -2890,7 +2800,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zks-pylib) This package is up to date.
 [ERROR] (zksampleproject) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -2917,8 +2827,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zku) This package is up to date.
 [INFO] (zkviz) This package is up to date.
 [INFO] (zkw-z) This package is up to date.
-[ERROR] (zkyhaxpy) Could not extract data from this package. See below for details.
-
+[INFO] (zkyhaxpy) This package is up to date.
 [INFO] (zla-class) This package is up to date.
 [INFO] (zla-forecast) This package is up to date.
 [INFO] (zlab) This package is up to date.
@@ -2942,12 +2851,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zlibrary) This package is up to date.
 [INFO] (zlibtui) This package is up to date.
 [INFO] (zlig) This package is up to date.
-[ERROR] (zlightjwt) This package does not have downloadable releases.
-[INFO] (zlightsimplejwt) This package is up to date.
 [INFO] (zlink) This package is up to date.
 [INFO] (zlist) This package is up to date.
 [INFO] (zljmail) This package is up to date.
 [INFO] (zlkj) This package is up to date.
+[INFO] (zlliu) This package is up to date.
+[INFO] (zlliutest) This package is up to date.
 [INFO] (zllrp) This package is up to date.
 [INFO] (zlmdb) This package is up to date.
 [INFO] (zlocated-central-repo-updater) This package is up to date.
@@ -2990,11 +2899,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zmei-gen) This package is up to date.
 [INFO] (zmei-gen-flutter) This package is up to date.
 [INFO] (zmei-utils) This package is up to date.
-[ERROR] (zmesh) Could not extract data from this package. See below for details.
-
+[INFO] (zmesh) This package is up to date.
 [ERROR] (zmey) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3049,6 +2957,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zmqflp) This package is up to date.
 [INFO] (zmqmin) This package is up to date.
 [INFO] (zmqnumpy) This package is up to date.
+[INFO] (zmqpubsub) This package is up to date.
 [INFO] (zmqpy) This package is up to date.
 [ERROR] (zmqrpc) This package does not have downloadable releases.
 [INFO] (zmqtools) This package is up to date.
@@ -3058,7 +2967,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zmsgcentre) This package is up to date.
 [ERROR] (zmtestlib) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3074,9 +2983,11 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (zmtmkutils) This package is up to date.
 [INFO] (zmtools) This package is up to date.
 [INFO] (zmuser) This package is up to date.
 [INFO] (zmusiclibrary) This package is up to date.
+[INFO] (zmxtools) This package is up to date.
 [INFO] (zmz) This package is up to date.
 [INFO] (zmzget) This package is up to date.
 [INFO] (zmzmdr) This package is up to date.
@@ -3091,8 +3002,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (znck) Could not extract data from this package. See below for details.
 "https://github.com/znck/machine-learning/tarball/master" file could not be downloaded. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 107, in download_tar
-    f.write(urlopen(url=urlesc(pkgurl), timeout=10).read())
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
@@ -3116,7 +3027,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (znjson) This package is up to date.
 [ERROR] (znl-tools) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3138,8 +3049,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (znproject) This package is up to date.
 [INFO] (znpyobject) This package is up to date.
 [INFO] (znth) This package is up to date.
-[ERROR] (zntrack) Could not extract data from this package. See below for details.
-
+[INFO] (zntrack) Data has been updated for this package.
 [INFO] (znvis) This package is up to date.
 [INFO] (zny-yespower-0-5) This package is up to date.
 [INFO] (znz-spider) This package is up to date.
@@ -3147,16 +3057,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zo-sdk) This package is up to date.
 [INFO] (zoauth) This package is up to date.
 [INFO] (zobepy) This package is up to date.
-[INFO] (zocalo) This package is up to date.
+[INFO] (zocalo) Data has been updated for this package.
 [INFO] (zocalo-dls) This package is up to date.
+[INFO] (zocrypt) This package is up to date.
 [INFO] (zodb) This package is up to date.
 [INFO] (zodb-cm) This package is up to date.
 [INFO] (zodb-py3migrate) This package is up to date.
 [INFO] (zodb3) This package is up to date.
 [INFO] (zodbbrowser) This package is up to date.
 [INFO] (zodbcode) This package is up to date.
-[ERROR] (zodbpickle) Could not extract data from this package. See below for details.
-
+[INFO] (zodbpickle) This package is up to date.
 [INFO] (zodbshootout) This package is up to date.
 [INFO] (zodbtools) This package is up to date.
 [INFO] (zodbupdate) This package is up to date.
@@ -3167,8 +3077,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zodiac-sign) This package is up to date.
 [INFO] (zodiac-sutime) This package is up to date.
 [INFO] (zodict) This package is up to date.
-[ERROR] (zodipy) Could not extract data from this package. See below for details.
-
+[INFO] (zodipy) This package is up to date.
 [INFO] (zoe) This package is up to date.
 [INFO] (zoe-analytics) This package is up to date.
 [INFO] (zoe-py) This package is up to date.
@@ -3202,20 +3111,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zohodb-py) This package is up to date.
 [ERROR] (zohodevkit) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -3238,6 +3137,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoil) This package is up to date.
 [INFO] (zoink-sftp) This package is up to date.
 [INFO] (zoinks) This package is up to date.
+[INFO] (zoish) Data has been updated for this package.
 [INFO] (zojax-mr-gae) This package is up to date.
 [INFO] (zokket) This package is up to date.
 [INFO] (zokrates-pycrypto) This package is up to date.
@@ -3246,6 +3146,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zolocal) This package is up to date.
 [INFO] (zoloto) This package is up to date.
 [INFO] (zoltpy) This package is up to date.
+[INFO] (zomake) This package is up to date.
 [INFO] (zomathon) This package is up to date.
 [INFO] (zomato-distribution-api) This package is up to date.
 [INFO] (zomato-sdk) This package is up to date.
@@ -3265,7 +3166,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zonarpy) This package is up to date.
 [ERROR] (zonda) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3292,13 +3193,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zonecheck) This package is up to date.
 [INFO] (zonecreate) This package is up to date.
 [INFO] (zonefile) This package is up to date.
+[INFO] (zonefile-migrate) This package is up to date.
 [INFO] (zonefile-parser) This package is up to date.
 [INFO] (zonefilegen) This package is up to date.
 [INFO] (zoneplanningteam) This package is up to date.
 [INFO] (zoner) This package is up to date.
+[INFO] (zonesender) Data has been updated for this package.
 [INFO] (zonic) This package is up to date.
 [INFO] (zono) This package is up to date.
-[INFO] (zonys) This package is up to date.
 [INFO] (zoo) This package is up to date.
 [INFO] (zoo-animal-classification) This package is up to date.
 [INFO] (zoo-cmd) This package is up to date.
@@ -3334,7 +3236,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoomconnect-sdk) This package is up to date.
 [ERROR] (zoomdl) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3356,7 +3258,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoomeye) This package is up to date.
 [ERROR] (zoomeye-dev) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3376,6 +3278,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zoomeye-sdk) This package is up to date.
 [INFO] (zoomfoundry) This package is up to date.
 [INFO] (zoomg) This package is up to date.
+[INFO] (zoomin) This package is up to date.
 [INFO] (zoomlinkmap) This package is up to date.
 [INFO] (zoomlog) This package is up to date.
 [INFO] (zoomlog-zoom-developer) This package is up to date.
@@ -3412,7 +3315,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope-apidoc) This package is up to date.
 [INFO] (zope-app-annotation) This package is up to date.
 [INFO] (zope-app-apidoc) This package is up to date.
-[INFO] (zope-app-applicationcontrol) This package is up to date.
+[INFO] (zope-app-applicationcontrol) Data has been updated for this package.
 [INFO] (zope-app-appsetup) This package is up to date.
 [INFO] (zope-app-authentication) This package is up to date.
 [INFO] (zope-app-basicskin) This package is up to date.
@@ -3478,7 +3381,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope-app-versioncontrol) This package is up to date.
 [INFO] (zope-app-wfmc) This package is up to date.
 [INFO] (zope-app-workflow) This package is up to date.
-[INFO] (zope-app-wsgi) This package is up to date.
+[INFO] (zope-app-wsgi) Data has been updated for this package.
 [INFO] (zope-app-xmlrpcintrospection) This package is up to date.
 [INFO] (zope-app-zapi) This package is up to date.
 [INFO] (zope-app-zcmlfiles) This package is up to date.
@@ -3497,7 +3400,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope-component) This package is up to date.
 [INFO] (zope-componentvocabulary) This package is up to date.
 [INFO] (zope-configuration) This package is up to date.
-[INFO] (zope-container) This package is up to date.
+[INFO] (zope-container) Data has been updated for this package.
 [INFO] (zope-contentprovider) This package is up to date.
 [INFO] (zope-contenttype) This package is up to date.
 [INFO] (zope-cooties) This package is up to date.
@@ -3554,7 +3457,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zope-pluggableauth) This package is up to date.
 [INFO] (zope-preference) This package is up to date.
 [INFO] (zope-principalannotation) This package is up to date.
-[INFO] (zope-principalregistry) This package is up to date.
+[INFO] (zope-principalregistry) Data has been updated for this package.
 [INFO] (zope-processlifetime) This package is up to date.
 [INFO] (zope-proxy) This package is up to date.
 [INFO] (zope-psycopgda) This package is up to date.
@@ -3603,20 +3506,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zopehealthwatcher) This package is up to date.
 [ERROR] (zopeinterface) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -3706,6 +3599,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zorky) This package is up to date.
 [INFO] (zorm) This package is up to date.
 [INFO] (zoro) This package is up to date.
+[INFO] (zoro-ds-utils) This package is up to date.
 [INFO] (zoro-gpapi) This package is up to date.
 [INFO] (zorp) This package is up to date.
 [INFO] (zorro) This package is up to date.
@@ -3715,8 +3609,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zort) This package is up to date.
 [INFO] (zortheix) This package is up to date.
 [INFO] (zos-util) This package is up to date.
-[ERROR] (zos-utilities) Could not extract data from this package. See below for details.
-
+[INFO] (zos-utilities) This package is up to date.
 [INFO] (zosapi) This package is up to date.
 [INFO] (zosftplib) This package is up to date.
 [INFO] (zosjcl) This package is up to date.
@@ -3743,18 +3636,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zotnote) This package is up to date.
 [INFO] (zotonicclient) This package is up to date.
 [INFO] (zotutil) This package is up to date.
-[ERROR] (zou) Could not extract data from this package. See below for details.
-
+[INFO] (zou) Data has been updated for this package.
 [ERROR] (zouaho-nester) This package does not have downloadable releases.
 [INFO] (zouhao-nester) This package is up to date.
 [INFO] (zounds) This package is up to date.
 [INFO] (zouqi) This package is up to date.
 [INFO] (zourite) This package is up to date.
-[ERROR] (zourmat-libpythonpro) Could not extract data from this package. See below for details.
-
+[INFO] (zourmat-libpythonpro) This package is up to date.
 [INFO] (zouss) This package is up to date.
-[ERROR] (zoviz) Could not extract data from this package. See below for details.
-
+[INFO] (zoviz) Data has been updated for this package.
 [INFO] (zowe) This package is up to date.
 [INFO] (zowe-core-for-zowe-sdk) This package is up to date.
 [INFO] (zowe-zos-console-for-zowe-sdk) This package is up to date.
@@ -3782,15 +3672,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zperfmetrics) This package is up to date.
 [INFO] (zpgdb) This package is up to date.
 [INFO] (zph01) This package is up to date.
-[ERROR] (zphisher) Could not extract data from this package. See below for details.
-
+[INFO] (zphisher) This package is up to date.
 [INFO] (zpider) This package is up to date.
-[INFO] (zpiejwt) This package is up to date.
 [INFO] (zpipe) This package is up to date.
 [INFO] (zpkg) This package is up to date.
 [INFO] (zpl) This package is up to date.
+[INFO] (zpl-plat) This package is up to date.
 [INFO] (zpl2) This package is up to date.
-[INFO] (zplay) This package is up to date.
 [INFO] (zplgen) This package is up to date.
 [INFO] (zplgrf) This package is up to date.
 [INFO] (zpllibrary) This package is up to date.
@@ -3800,12 +3688,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zpoolparty) This package is up to date.
 [INFO] (zpov) This package is up to date.
 [INFO] (zpp) This package is up to date.
+[INFO] (zpp-browser) This package is up to date.
+[INFO] (zpp-color) This package is up to date.
+[INFO] (zpp-config) This package is up to date.
+[INFO] (zpp-menu) This package is up to date.
+[INFO] (zpp-serpent) This package is up to date.
 [INFO] (zppan) This package is up to date.
 [INFO] (zpretty) This package is up to date.
 [INFO] (zprint) This package is up to date.
 [INFO] (zproc) This package is up to date.
-[ERROR] (zprocess) Could not extract data from this package. See below for details.
-
+[INFO] (zprocess) This package is up to date.
 [INFO] (zprofile) This package is up to date.
 [INFO] (zprogressbar) This package is up to date.
 [INFO] (zproj) This package is up to date.
@@ -3821,16 +3713,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 This package download URL does not point to a valid file: "http://www.procoders.net/pythonstuff/ZPTPage"
 [INFO] (zpublishereventsbackport) This package is up to date.
 [INFO] (zpy) This package is up to date.
-[ERROR] (zpy-api-core) Could not extract data from this package. See below for details.
-
+[INFO] (zpy-api-core) Data has been updated for this package.
 [INFO] (zpy-ciphers-utils) This package is up to date.
 [INFO] (zpy-cloud-utils) This package is up to date.
-[ERROR] (zpy-db-core) Could not extract data from this package. See below for details.
-
+[INFO] (zpy-db-core) This package is up to date.
 [INFO] (zpy-flask-msc) This package is up to date.
 [INFO] (zpy-zumo) This package is up to date.
 [INFO] (zpybox) This package is up to date.
-[INFO] (zpyjwt) This package is up to date.
 [INFO] (zpylib) This package is up to date.
 [INFO] (zpypi) This package is up to date.
 [INFO] (zpyshell) This package is up to date.
@@ -3839,16 +3728,17 @@ This package download URL does not point to a valid file: "http://www.procoders.
 [INFO] (zpz) This package is up to date.
 [INFO] (zq) This package is up to date.
 [INFO] (zq-logger) This package is up to date.
+[INFO] (zq-tools) This package is up to date.
 [INFO] (zqadd) This package is up to date.
 [INFO] (zqifatools) This package is up to date.
 [INFO] (zql) This package is up to date.
 [INFO] (zqlib) This package is up to date.
-[INFO] (zqpy) This package is up to date.
+[INFO] (zqpy) Data has been updated for this package.
 [INFO] (zqqonlymyrailgun) This package is up to date.
 [ERROR] (zquant) This package does not have downloadable releases.
 [ERROR] (zquantum-core) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -3886,6 +3776,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zrf-test-box-py) This package is up to date.
 [INFO] (zrhappy) This package is up to date.
 [INFO] (zrip) This package is up to date.
+[INFO] (zrlog) This package is up to date.
 [INFO] (zrna) This package is up to date.
 [INFO] (zroya) This package is up to date.
 [INFO] (zrp) This package is up to date.
@@ -3895,20 +3786,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zry-demo) This package is up to date.
 [ERROR] (zry551-lib) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -3938,6 +3819,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zs2decode) This package is up to date.
 [INFO] (zsadvancedviz) This package is up to date.
 [INFO] (zscaler) This package is up to date.
+[INFO] (zscaler-api-talkers) Data has been updated for this package.
 [INFO] (zscaler-python-sdk) This package is up to date.
 [INFO] (zscalertools) This package is up to date.
 [INFO] (zschema) This package is up to date.
@@ -3949,9 +3831,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zser) This package is up to date.
 [INFO] (zserio) This package is up to date.
 [INFO] (zserver) This package is up to date.
-[ERROR] (zservices) Could not extract data from this package. See below for details.
-
+[INFO] (zservices) This package is up to date.
 [ERROR] (zsession) This package does not have downloadable releases.
+[INFO] (zsfile) This package is up to date.
 [INFO] (zsft-recipe-cmd) This package is up to date.
 [INFO] (zsh-compose) This package is up to date.
 [INFO] (zsh-directory-history) This package is up to date.
@@ -3964,6 +3846,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zsharp) This package is up to date.
 [INFO] (zsharppl) This package is up to date.
 [INFO] (zshell) This package is up to date.
+[INFO] (zshot) Data has been updated for this package.
 [INFO] (zshpower) This package is up to date.
 [ERROR] (zshx-yong) This package does not have downloadable releases.
 [ERROR] (zsi) This package does not have downloadable releases.
@@ -3983,6 +3866,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zsom) This package is up to date.
 [INFO] (zson) This package is up to date.
 [INFO] (zsp) This package is up to date.
+[INFO] (zspell) Data has been updated for this package.
 [INFO] (zspider) This package is up to date.
 [INFO] (zspt) This package is up to date.
 [INFO] (zsq-test) This package is up to date.
@@ -3996,8 +3880,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zstat) This package is up to date.
 [INFO] (zstat-cli) This package is up to date.
 [INFO] (zstatspython) This package is up to date.
-[ERROR] (zstd) Could not extract data from this package. See below for details.
-
+[INFO] (zstd) This package is up to date.
 [INFO] (zstd-asgi) This package is up to date.
 [INFO] (zstdarchiver) This package is up to date.
 [INFO] (zstdcat) This package is up to date.
@@ -4010,11 +3893,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztask) This package is up to date.
 [INFO] (ztc) This package is up to date.
 [INFO] (ztctl) This package is up to date.
+[INFO] (ztdemo) Data has been updated for this package.
 [INFO] (zte-mf823) This package is up to date.
 [INFO] (ztech-pythena) This package is up to date.
 [ERROR] (ztestutils) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4032,20 +3916,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (ztesupermath) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -4061,12 +3935,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztext) This package is up to date.
 [INFO] (ztf-auth) This package is up to date.
 [INFO] (ztf-check) This package is up to date.
-[INFO] (ztf-plan-obs) This package is up to date.
-[ERROR] (ztfidr) Could not extract data from this package. See below for details.
-
+[INFO] (ztf-plan-obs) Data has been updated for this package.
+[INFO] (ztfidr) This package is up to date.
 [INFO] (ztfimg) This package is up to date.
-[INFO] (ztflc) This package is up to date.
-[INFO] (ztfquery) This package is up to date.
+[INFO] (ztflc) Data has been updated for this package.
+[INFO] (ztfquery) Data has been updated for this package.
 [INFO] (ztfy-alchemy) This package is up to date.
 [INFO] (ztfy-appskin) This package is up to date.
 [INFO] (ztfy-base) This package is up to date.
@@ -4111,7 +3984,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztm) This package is up to date.
 [ERROR] (ztmapi-core) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4129,10 +4002,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (ztmodtcp) This package is up to date.
 [INFO] (ztool) This package is up to date.
-[INFO] (ztools) This package is up to date.
+[INFO] (ztools) Data has been updated for this package.
 [INFO] (ztorgbpy) This package is up to date.
-[ERROR] (ztplite) Could not extract data from this package. See below for details.
-
+[INFO] (ztplite) This package is up to date.
 [INFO] (ztpserver) This package is up to date.
 [INFO] (ztq-console) This package is up to date.
 [INFO] (ztq-core) This package is up to date.
@@ -4143,10 +4015,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (ztreamy) This package is up to date.
 [INFO] (zts-hellopypi) This package is up to date.
 [INFO] (ztshare) This package is up to date.
+[INFO] (ztsuper-ctbs) This package is up to date.
+[INFO] (zttt) Data has been updated for this package.
 [INFO] (ztv) This package is up to date.
 [ERROR] (ztz) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4177,8 +4051,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zuds) This package is up to date.
 [INFO] (zuel-test) This package is up to date.
 [INFO] (zufaelliger) This package is up to date.
-[ERROR] (zufallsworte) Could not extract data from this package. See below for details.
-
+[INFO] (zufallsworte) This package is up to date.
 [INFO] (zugbruecke) This package is up to date.
 [INFO] (zugexianshi) This package is up to date.
 [INFO] (zugh) This package is up to date.
@@ -4196,7 +4069,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zumanji) This package is up to date.
 [ERROR] (zumbata-kamagra-bot-zumbata) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4221,6 +4094,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zun-tempest-plugin) This package is up to date.
 [INFO] (zun-ui) This package is up to date.
 [INFO] (zunda-python) This package is up to date.
+[INFO] (zungle) This package is up to date.
 [INFO] (zunis) This package is up to date.
 [INFO] (zunzun) This package is up to date.
 [INFO] (zunzuncito) This package is up to date.
@@ -4231,6 +4105,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zuora-swagger-client) This package is up to date.
 [INFO] (zuorapy) This package is up to date.
 [INFO] (zuoraquery) This package is up to date.
+[INFO] (zuowen) This package is up to date.
 [INFO] (zuoyeji) This package is up to date.
 [INFO] (zup) This package is up to date.
 [INFO] (zuper-auth) This package is up to date.
@@ -4272,13 +4147,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zurkon) This package is up to date.
 [INFO] (zusha-web-app) This package is up to date.
 [INFO] (zuss) This package is up to date.
+[INFO] (zut) This package is up to date.
 [INFO] (zut-nlp-utils) This package is up to date.
 [INFO] (zutil) This package is up to date.
 [INFO] (zutilities) This package is up to date.
 [INFO] (zutils) This package is up to date.
 [INFO] (zutnlp) This package is up to date.
-[ERROR] (zuul) Could not extract data from this package. See below for details.
-
+[INFO] (zutooy) This package is up to date.
+[INFO] (zuul) This package is up to date.
 [INFO] (zuul-client) This package is up to date.
 [INFO] (zuul-get) This package is up to date.
 [INFO] (zuul-lint) This package is up to date.
@@ -4298,8 +4174,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zvit) This package is up to date.
 [INFO] (zviz) This package is up to date.
 [INFO] (zvmcloudconnector) This package is up to date.
-[ERROR] (zvt) Could not extract data from this package. See below for details.
-
+[INFO] (zvt) This package is up to date.
 [INFO] (zvt-ccxt) This package is up to date.
 [INFO] (zvtm) This package is up to date.
 [INFO] (zvtplus) This package is up to date.
@@ -4310,15 +4185,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (zw-nester) This package does not have downloadable releases.
 [INFO] (zw-outliersdetec) This package is up to date.
 [INFO] (zw-schema) This package is up to date.
-[ERROR] (zw-util-lib) Could not extract data from this package. See below for details.
-
+[INFO] (zw-util-lib) This package is up to date.
 [INFO] (zw-widget) This package is up to date.
 [ERROR] (zw3ohpxuyg) This package does not have downloadable releases.
 [INFO] (zwack) This package is up to date.
 [INFO] (zware-api) This package is up to date.
 [INFO] (zwatershed) This package is up to date.
-[ERROR] (zwave-js-server-python) Could not extract data from this package. See below for details.
-
+[INFO] (zwave-js-server-python) This package is up to date.
 [INFO] (zwave-me-ws) This package is up to date.
 [INFO] (zwave-mqtt-bridge) This package is up to date.
 [INFO] (zwave-ws) This package is up to date.
@@ -4330,7 +4203,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zwcef) This package is up to date.
 [ERROR] (zwdata) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4348,6 +4221,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zwdb) This package is up to date.
 [INFO] (zwdlib) This package is up to date.
+[INFO] (zwdocs) This package is up to date.
 [INFO] (zwdq) This package is up to date.
 [INFO] (zweb) This package is up to date.
 [INFO] (zwedu-student-etl) This package is up to date.
@@ -4357,6 +4231,42 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zweig) This package is up to date.
 [INFO] (zwembad) This package is up to date.
 [INFO] (zwende) This package is up to date.
+[ERROR] (zwero-brain-games) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (zwero-brain-games1) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (zwf) This package is up to date.
 [INFO] (zwfsalary) This package is up to date.
 [INFO] (zwhite) This package is up to date.
@@ -4366,7 +4276,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zwift-workouts-parser) This package is up to date.
 [INFO] (zwiftpktmon) This package is up to date.
 [ERROR] (zwiki) This package does not have downloadable releases.
+[INFO] (zwio-client) This package is up to date.
 [INFO] (zwitutils) This package is up to date.
+[INFO] (zwixel-pwack) This package is up to date.
 [INFO] (zwkmathtest) This package is up to date.
 [INFO] (zwkpython) This package is up to date.
 [INFO] (zwnlp) This package is up to date.
@@ -4377,10 +4289,11 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zword) This package is up to date.
 [INFO] (zwpdf) This package is up to date.
 [INFO] (zwpool) This package is up to date.
+[INFO] (zwsp-char-function) This package is up to date.
 [INFO] (zwsp-steg-py) This package is up to date.
 [ERROR] (zwt) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4398,26 +4311,15 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (zwt5) This package is up to date.
 [INFO] (zwtestprint) This package is up to date.
-[ERROR] (zwutils) Could not extract data from this package. See below for details.
-
+[INFO] (zwutils) This package is up to date.
 [INFO] (zwyfastai) This package is up to date.
 [INFO] (zx) This package is up to date.
 [ERROR] (zx-backtesting) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -4432,20 +4334,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zx-core-backend) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -4464,6 +4356,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zxbacktesting) This package is up to date.
 [INFO] (zxbasic) This package is up to date.
 [INFO] (zxc) This package is up to date.
+[INFO] (zxcdsaweercvvv) This package is up to date.
 [INFO] (zxcglf) This package is up to date.
 [INFO] (zxcv) This package is up to date.
 [INFO] (zxcvbn) This package is up to date.
@@ -4481,7 +4374,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zxingmod) This package is up to date.
 [ERROR] (zxj-env) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4499,7 +4392,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (zxj-test-pengym) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4515,8 +4408,7 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
-[ERROR] (zxkane-cdk-construct-simple-nat) Could not extract data from this package. See below for details.
-
+[INFO] (zxkane-cdk-construct-simple-nat) Data has been updated for this package.
 [INFO] (zxmtools) This package is up to date.
 [ERROR] (zxotest) This package does not have downloadable releases.
 [INFO] (zxpath) This package is up to date.
@@ -4531,7 +4423,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zxutils) This package is up to date.
 [ERROR] (zxw) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4551,7 +4443,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zxybackupcloser) This package is up to date.
 [ERROR] (zxycba) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4581,16 +4473,16 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zyc) This package is up to date.
 [INFO] (zycelium-ansiformat) This package is up to date.
 [INFO] (zycelium-dataconfig) This package is up to date.
+[INFO] (zyctool) This package is up to date.
 [INFO] (zydis) This package is up to date.
-[ERROR] (zydmayday-pamda) Could not extract data from this package. See below for details.
-
+[INFO] (zydmayday-pamda) This package is up to date.
 [INFO] (zyf) This package is up to date.
 [INFO] (zyf-timer) This package is up to date.
-[ERROR] (zygoat) Could not extract data from this package. See below for details.
-
+[INFO] (zygoat) This package is up to date.
 [INFO] (zygoat-django) This package is up to date.
 [INFO] (zygomorphic) This package is up to date.
 [INFO] (zygote) This package is up to date.
+[INFO] (zygrpc) Data has been updated for this package.
 [INFO] (zyk-hfp-test1) This package is up to date.
 [INFO] (zyklop) This package is up to date.
 [INFO] (zyklus) This package is up to date.
@@ -4603,29 +4495,32 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zymbit-connect) This package is up to date.
 [INFO] (zymbit-trequests) This package is up to date.
 [INFO] (zymkey) This package is up to date.
-[INFO] (zymod) This package is up to date.
+[INFO] (zymod) Data has been updated for this package.
 [INFO] (zymouse) This package is up to date.
 [INFO] (zymp) This package is up to date.
 [INFO] (zymptest) This package is up to date.
 [INFO] (zymtest2) This package is up to date.
 [INFO] (zynet) This package is up to date.
 [INFO] (zynlp) This package is up to date.
+[INFO] (zynpacker) Data has been updated for this package.
 [ERROR] (zype) This package does not have downloadable releases.
 [INFO] (zypec) This package is up to date.
 [INFO] (zypesdk) This package is up to date.
 [INFO] (zypper-patch-status-collector) This package is up to date.
 [INFO] (zyppnotify) This package is up to date.
 [INFO] (zyputility) This package is up to date.
+[INFO] (zyrdeku) Data has been updated for this package.
 [INFO] (zyt) This package is up to date.
 [INFO] (zyte) This package is up to date.
-[INFO] (zyte-api) This package is up to date.
+[INFO] (zyte-api) Data has been updated for this package.
 [INFO] (zyte-autoextract) This package is up to date.
 [INFO] (zyte-scrapycloud-cli) This package is up to date.
+[INFO] (zyte-smartproxy-selenium) This package is up to date.
+[INFO] (zyte-spmstats) This package is up to date.
 [INFO] (zytesc) This package is up to date.
 [INFO] (zytestpip) This package is up to date.
 [INFO] (zython) This package is up to date.
-[ERROR] (zytlib) Could not extract data from this package. See below for details.
-
+[INFO] (zytlib) This package is up to date.
 [INFO] (zyutil) This package is up to date.
 [INFO] (zyw) This package is up to date.
 [INFO] (zyxel-t50-modem) This package is up to date.
@@ -4642,6 +4537,8 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zz-nester) This package is up to date.
 [INFO] (zz-spider) This package is up to date.
 [INFO] (zz-test) This package is up to date.
+[INFO] (zzarpdf) This package is up to date.
+[INFO] (zzd) Data has been updated for this package.
 [INFO] (zzdb) This package is up to date.
 [INFO] (zzgui) This package is up to date.
 [INFO] (zzh) This package is up to date.
@@ -4656,6 +4553,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zzhprobm) This package is up to date.
 [INFO] (zzhprobsecond) This package is up to date.
 [INFO] (zzhprobsixth) This package is up to date.
+[INFO] (zzhtestlib) This package is up to date.
 [INFO] (zzhtongjione) This package is up to date.
 [INFO] (zzip) This package is up to date.
 [INFO] (zzjjkk) This package is up to date.
@@ -4681,7 +4579,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zzz) This package is up to date.
 [ERROR] (zzz-web) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -4700,26 +4598,18 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (zzz001) This package is up to date.
 [INFO] (zzzeeksphinx) This package is up to date.
 [INFO] (zzzfs) This package is up to date.
+[INFO] (zzzing) This package is up to date.
 [INFO] (zzzpypitest) This package is up to date.
 [INFO] (zzzpypitest2) This package is up to date.
 [INFO] (zzzutils) This package is up to date.
+[INFO] (zzzymobbe) This package is up to date.
 [INFO] (zzzz) This package is up to date.
 [ERROR] (zzzzzzzzz) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -4734,14 +4624,14 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] 
 [INFO] 
-[INFO] Total packages: 3222
-[INFO]     Packages processed: 3222
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 3023
-[INFO]         Packages without response: 71
+[INFO] Total packages: 3320
+[INFO]     Packages processed: 3320
+[INFO]         Packages updated: 50
+[INFO]         Packages up-to-date: 3121
+[INFO]         Packages without response: 74
 [INFO]         Packages without urls: 0
-[INFO]         Packages without downloads: 66
-[INFO]         Packages with data errors: 62
+[INFO]         Packages without downloads: 65
+[INFO]         Packages with data errors: 10
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 

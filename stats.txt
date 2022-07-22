@@ -1,8 +1,8 @@
-Total packages: 371129
-	Packages processed: 371129
-		Packages updated: 0
-		Packages up-to-date: 282705
-		Packages with data errors: 71835
-		Packages without downloads: 6969
-		Packages without response: 9620
+Total packages: 388710
+	Packages processed: 388710
+		Packages updated: 8397
+		Packages up-to-date: 361110
+		Packages with data errors: 2002
+		Packages without downloads: 6949
+		Packages without response: 10252
 	Packages not processed: 0

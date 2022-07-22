@@ -1,4 +1,4 @@
-.. image:: https://github.com/LuisAlejandro/pypicontents-build/blob/master/branding/banner.svg
+.. image:: https://raw.githubusercontent.com/LuisAlejandro/pypicontents/develop/docs/_static/banner.svg
 
 ..
 
@@ -21,6 +21,14 @@
 .. image:: https://github.com/LuisAlejandro/pypicontents/workflows/Push/badge.svg
    :target: https://github.com/LuisAlejandro/pypicontents/actions?query=workflow%3APush
    :alt: Push
+
+.. image:: https://coveralls.io/repos/github/LuisAlejandro/pypicontents/badge.svg?branch=develop
+   :target: https://coveralls.io/github/LuisAlejandro/pypicontents?branch=develop
+   :alt: Coverage
+
+.. image:: https://cla-assistant.io/readme/badge/LuisAlejandro/pypicontents
+   :target: https://cla-assistant.io/LuisAlejandro/pypicontents
+   :alt: Contributor License Agreement
 
 .. image:: https://readthedocs.org/projects/pypicontents/badge/?version=latest
    :target: https://readthedocs.org/projects/pypicontents/?badge=latest
@@ -57,33 +65,34 @@ About the Module Index
 ----------------------
 
 .. _Github Actions: https://github.com/LuisAlejandro/pypicontents/actions
-.. _pypi.json.xz: https://github.com/LuisAlejandro/pypicontents/blob/master/pypi.json.xz
+.. _pypi.json.xz: https://github.com/LuisAlejandro/pypicontents-build/raw/master/pypi.json.xz
 
 In the `pypi.json.xz`_ file you will find a
 dictionary with all the packages registered at the main PyPI instance, each one
-with the following information::
+with the following information.
+
+.. code-block:: json
 
     {
-        "pkg_a": {
-            "version": [
+        "pkg_a":{
+            "version":[
                 "X.Y.Z"
             ],
-            "modules": [
+            "modules":[
                 "module_1",
-                "module_2",
-                "..."
+                "module_2"
             ],
-            "cmdline": [
+            "cmdline":[
                 "path_1",
                 "path_2",
                 "..."
             ]
         },
-        "pkg_b": {
-             "...": "..."
-        },
-        "...": {},
-        "...": {}
+        "pkg_b":{
+            "version":[
+                "X.Y.Z"
+            ]
+        }
     }
 
 This index is generated using `Github Actions`_. This is done by executing the
@@ -99,7 +108,7 @@ Use cases
 * Search which package (or packages) contain a python module. Useful to
   determine a project's ``requirements.txt`` or ``install_requires``.
 
-::
+.. code-block:: python
 
     import json
     import lzma
@@ -150,7 +159,7 @@ Getting help
 .. _StackOverflow: http://stackoverflow.com/questions/ask
 
 If you have any doubts or problems, suscribe to our `Discord server`_ and ask for help. You can also
-ask your question on StackOverflow_ (tag it ``candyshop``) or drop me an email at luis@collagelabs.org.
+ask your question on StackOverflow_ (tag it ``pypicontents``) or drop me an email at luis@collagelabs.org.
 
 License
 =======
@@ -162,10 +171,10 @@ Copyright 2016-2022, PyPIContents Developers (read AUTHORS.rst_ for a full list 
 
 Released under a `GPL-3 License`_.
 
-Made with :heart: and :hamburger:
-=================================
+Made with 💖 and 🍔
+====================
 
-.. image:: https://github.com/LuisAlejandro/pypicontents-build/blob/master/branding/author-banner.svg
+.. image:: https://raw.githubusercontent.com/LuisAlejandro/pypicontents-build/master/branding/author-banner.svg
 
 .. _LuisAlejandroTwitter: https://twitter.com/LuisAlejandro
 .. _LuisAlejandroGitHub: https://github.com/LuisAlejandro
