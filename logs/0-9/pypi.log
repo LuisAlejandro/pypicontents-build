@@ -3,12 +3,15 @@
 [INFO] (0) This package is up to date.
 [ERROR] (0-0) This package does not have downloadable releases.
 [INFO] (0-0-1) This package is up to date.
+[INFO] (0-618) This package is up to date.
 [INFO] (0-core-client) This package is up to date.
 [INFO] (0-orchestrator) This package is up to date.
+[INFO] (000) This package is up to date.
 [INFO] (00000a) This package is up to date.
 [INFO] (00print-lol) This package is up to date.
 [ERROR] (00smalinux) This package does not have downloadable releases.
 [INFO] (01-distributions) This package is up to date.
+[INFO] (0101) This package is up to date.
 [INFO] (0121) This package is up to date.
 [ERROR] (01changer) This package does not have downloadable releases.
 [INFO] (01d61084-d29e-11e9-96d1-7c5cf84ffe8e) This package is up to date.
@@ -46,8 +49,103 @@
 [INFO] (10-0-0-55) This package is up to date.
 [ERROR] (10-8moshpdf) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (1000pip-builder) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/3c/5a/203b2d5ca866646bc24ffb4d1c4b0a1e1d21a52ec38ba3f62eaaaaa9dadc/1000pip%20builder-1.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (1000pip-builder-forex-signals) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/0e/16/08cdeb27b16eef6911eeac7142250988ad2d5a869f250f7d231331af1110/1000pip%20Builder%20Forex%20Signals-2022.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (1000pip-climber-system-download) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/e7/6e/c513221b022d6cfca6f68417539bc7023b24e8e65dffd346588a90bdd23a/1000pip%20Climber%20System%20download-2022.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (1000pip-climber-system-free-download) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/ec/e9/d750829aafac4859b68d2967bf6ecc92390d5db8b22912320176a554d3ee/1000pip%20Climber%20System%20Free%20Download-1.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (1000pip-climber-system-review) Could not extract data from this package. See below for details.
+"https://files.pythonhosted.org/packages/19/aa/ed28927fab9d2b2735e449a56e3985300c6389641fff5768bbffe1302b51/1000pip%20Climber%20System%20Review-1.tar.gz" file could not be downloaded. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 93, in download_tar
+    f.write(urlopen(url=urlesc(pkgurl), timeout=60).read())
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
@@ -92,7 +190,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (101703476-samiksha) This package is up to date.
 [ERROR] (101703488-sargun) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -125,19 +223,17 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (101917149-topsis) This package is up to date.
 [INFO] (101hello-0-0-1-redish101) This package is up to date.
 [INFO] (1020-nester) This package is up to date.
-[INFO] (1024) This package is up to date.
 [INFO] (1082-msr-bhp) This package is up to date.
 [INFO] (108moshpdf) This package is up to date.
 [INFO] (10daysweb) This package is up to date.
 [INFO] (10dulkar17-s3-aws) This package is up to date.
-[ERROR] (10engrproblems) Could not extract data from this package. See below for details.
-
+[INFO] (10engrproblems) This package is up to date.
 [INFO] (111752) This package is up to date.
 [INFO] (115wangpan) This package is up to date.
 [INFO] (11601160) This package is up to date.
 [ERROR] (11dl-gpu) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -155,10 +251,30 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (11l) This package is up to date.
 [INFO] (12-test) This package is up to date.
+[INFO] (123) This package is up to date.
 [INFO] (123-object-detection) This package is up to date.
 [INFO] (12306-booking) This package is up to date.
+[ERROR] (1234exec) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (123hibob789) This package is up to date.
 [INFO] (123testupload) This package is up to date.
+[INFO] (123tv-iptv) This package is up to date.
 [INFO] (125softnlp) This package is up to date.
 [INFO] (12factor-configclasses) This package is up to date.
 [INFO] (12factor-vault) This package is up to date.
@@ -168,7 +284,24 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (153957-theme) This package is up to date.
 [INFO] (15five-django-ajax-selects) This package is up to date.
 [INFO] (15five-snowplow-tracker) This package is up to date.
-[INFO] (16) This package is up to date.
+[ERROR] (168learn) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (17monip) This package is up to date.
 [ERROR] (18-e) This package does not have downloadable releases.
 [INFO] (19226331lalitagrawal) This package is up to date.
@@ -182,9 +315,27 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (1and1) This package is up to date.
 [INFO] (1app) This package is up to date.
 [INFO] (1assl) This package is up to date.
+[ERROR] (1b01-example-publish-pypi-medium) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (1b1l-distributions) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -208,7 +359,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (1d3-sdk) This package is up to date.
 [ERROR] (1dct) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -227,22 +378,20 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (1distro) This package is up to date.
 [INFO] (1dyfolabs-test-script) This package is up to date.
 [INFO] (1ee) This package is up to date.
+[INFO] (1inch-py) Data has been updated for this package.
 [INFO] (1lever-utils) This package is up to date.
 [INFO] (1nester) This package is up to date.
 [INFO] (1neuron-pypi-overlordiam) This package is up to date.
 [INFO] (1neuronperceptron-pypi-mdnazmulislam0087) This package is up to date.
 [INFO] (1os) This package is up to date.
 [INFO] (1pass) This package is up to date.
+[INFO] (1pass2pass) This package is up to date.
 [INFO] (1password) This package is up to date.
 [INFO] (1primo1) This package is up to date.
 [INFO] (1q847) This package is up to date.
-[INFO] (1st) This package is up to date.
-[INFO] (1to001) This package is up to date.
-[INFO] (1zlab-emp-ide) This package is up to date.
-[INFO] (1zlab-homepage) This package is up to date.
-[ERROR] (2) Could not get a response from API for this package. See below for details.
+[ERROR] (1secmail-python) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -258,32 +407,134 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (1secmailpythonwarper) This package is up to date.
+[INFO] (1st) This package is up to date.
+[INFO] (1to001) This package is up to date.
+[INFO] (1zlab-emp-ide) This package is up to date.
+[INFO] (1zlab-homepage) This package is up to date.
+[ERROR] (2) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (2-2-4-1-3-quick-maths) This package is up to date.
 [INFO] (2-5d) This package is up to date.
-[INFO] (2008webcrawler) This package is up to date.
+[ERROR] (2008webcrawler) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [ERROR] (2013007-pyh) This package does not have downloadable releases.
 [INFO] (20191004) This package is up to date.
 [INFO] (2020) This package is up to date.
-[INFO] (2021) This package is up to date.
 [INFO] (2021assignment1calculator1) This package is up to date.
 [INFO] (2021ccps3) This package is up to date.
+[INFO] (2022-assignment1-itis) This package is up to date.
+[INFO] (2022-distributions) This package is up to date.
+[ERROR] (2022-requests) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (20220429-pdfminer-jameslp310) This package is up to date.
+[ERROR] (2022calculator) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (2022printer) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (2048) This package is up to date.
 [INFO] (2048-py) This package is up to date.
 [INFO] (20cs30064mypackage) This package is up to date.
+[INFO] (20xx) This package is up to date.
 [INFO] (2112) This package is up to date.
+[INFO] (2143134) This package is up to date.
 [INFO] (21cmfast) This package is up to date.
 [INFO] (21cmmc) This package is up to date.
 [INFO] (223) This package is up to date.
+[INFO] (2233) This package is up to date.
 [INFO] (2233223) This package is up to date.
+[INFO] (233) This package is up to date.
+[INFO] (2333) This package is up to date.
 [INFO] (23andme-to-vcf) This package is up to date.
 [INFO] (24p) This package is up to date.
 [INFO] (24to25) This package is up to date.
-[INFO] (2521-distributions) This package is up to date.
-[INFO] (256) This package is up to date.
+[INFO] (282828282828282828) Data has been updated for this package.
+[INFO] (29082022-distributions) This package is up to date.
 [INFO] (2969nester) This package is up to date.
 [INFO] (2b2t) This package is up to date.
 [ERROR] (2b2t-api) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -303,11 +554,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (2c-py) Could not extract data from this package. See below for details.
 This package download URL does not point to a valid file: "http://code.google.com/p/2c-python/downloads/"
 [INFO] (2captcha-python) This package is up to date.
+[INFO] (2ch-downloader) This package is up to date.
 [INFO] (2d-panel-cfd) This package is up to date.
 [INFO] (2d6io-cryptobot) This package is up to date.
 [ERROR] (2dfly-manbanzhen) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -326,20 +578,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (2dmath) This package is up to date.
 [ERROR] (2dregex-mwinters) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -368,18 +610,13 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (2us) This package is up to date.
 [INFO] (2vyper) This package is up to date.
 [INFO] (2wf90-assignment) This package is up to date.
+[INFO] (2xh-leet) This package is up to date.
 [INFO] (3) This package is up to date.
 [INFO] (3-1) This package is up to date.
-[INFO] (31) This package is up to date.
-[INFO] (311devs-peewee) This package is up to date.
-[INFO] (32blit) This package is up to date.
-[INFO] (36-chambers) This package is up to date.
-[INFO] (3636c788d0392f7e84453434eea18c59) This package is up to date.
-[INFO] (365scores) This package is up to date.
-[INFO] (36ban-commons) This package is up to date.
-[ERROR] (36ke-py) Could not get a response from API for this package. See below for details.
+[INFO] (3-py) This package is up to date.
+[ERROR] (300) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -387,12 +624,83 @@ Traceback (most recent call last):
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
     response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
   File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
     result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (31) This package is up to date.
+[INFO] (310) This package is up to date.
+[INFO] (310-notebook) This package is up to date.
+[INFO] (311devs-peewee) This package is up to date.
+[INFO] (32blit) This package is up to date.
+[ERROR] (33joshbasiccalculator33) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (33pdf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[ERROR] (34pdf) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+[INFO] (36-chambers) This package is up to date.
+[INFO] (3636c788d0392f7e84453434eea18c59) This package is up to date.
+[INFO] (365scores) This package is up to date.
+[INFO] (36ban-commons) This package is up to date.
+[ERROR] (36ke-py) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -407,7 +715,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (37austen) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -430,20 +738,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [ERROR] (3color-press) This package does not have downloadable releases.
 [ERROR] (3d-bin-container-packing) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -458,6 +756,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [INFO] (3d-connectx-env) This package is up to date.
 [INFO] (3d-converter) This package is up to date.
+[INFO] (3d-paws) This package is up to date.
 [INFO] (3d-renderer) This package is up to date.
 [INFO] (3d-wallet-generator) This package is up to date.
 [INFO] (3dcore) This package is up to date.
@@ -480,7 +779,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (3ptest) This package is up to date.
 [INFO] (3q) This package is up to date.
 [INFO] (3scale-api) This package is up to date.
+[INFO] (3sdaq-news-cl) This package is up to date.
 [ERROR] (3t) This package does not have downloadable releases.
+[INFO] (3tllibs) This package is up to date.
 [INFO] (3to2) This package is up to date.
 [INFO] (3to2-py3k) This package is up to date.
 [INFO] (3xsd) This package is up to date.
@@ -494,7 +795,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (42qucc) This package is up to date.
 [ERROR] (42ukim) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -512,7 +813,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (42ukimd08) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -530,7 +831,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 
 [ERROR] (42ukimx2) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -549,6 +850,7 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (440-create-user) This package is up to date.
 [INFO] (456789999999test) This package is up to date.
 [INFO] (4711) This package is up to date.
+[INFO] (4996) This package is up to date.
 [INFO] (4cast-awi-package) This package is up to date.
 [INFO] (4cast-package) This package is up to date.
 [INFO] (4cdl) This package is up to date.
@@ -557,10 +859,12 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (4chan-biz-mentions) This package is up to date.
 [INFO] (4chandownloader) This package is up to date.
 [INFO] (4channel) This package is up to date.
+[INFO] (4dgb-workflow) This package is up to date.
 [INFO] (4dpyautodiff) This package is up to date.
+[INFO] (4in) This package is up to date.
 [ERROR] (4koodi) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -583,8 +887,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (4sfwd) This package is up to date.
 [ERROR] (4suite) This package does not have downloadable releases.
 [INFO] (4suite-xml) This package is up to date.
+[INFO] (4to5) This package is up to date.
 [INFO] (5) This package is up to date.
 [INFO] (5-exercise-upload-to-pypi) This package is up to date.
+[INFO] (5-rakoto031-upload-to-pypi) This package is up to date.
 [INFO] (5090-distributions) This package is up to date.
 [INFO] (51degrees-mobile-detector) This package is up to date.
 [INFO] (51degrees-mobile-detector-lite-pattern-wrapper) This package is up to date.
@@ -594,18 +900,43 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (51pub-pymodules) This package is up to date.
 [INFO] (51pubmodules) This package is up to date.
 [INFO] (51spiders) This package is up to date.
+[INFO] (520) This package is up to date.
+[INFO] (546lkji) This package is up to date.
+[INFO] (56kyle-pychess) This package is up to date.
+[INFO] (574d) Data has been updated for this package.
+[INFO] (5an) This package is up to date.
+[INFO] (5g-core-common-schemas) This package is up to date.
+[INFO] (5kodds-distribution) This package is up to date.
 [INFO] (5minute) This package is up to date.
 [INFO] (5o4drel5mk) This package is up to date.
-[ERROR] (5sim-python) Could not extract data from this package. See below for details.
-
+[INFO] (5sim-python) This package is up to date.
 [INFO] (6) This package is up to date.
 [INFO] (6-rosdep) This package is up to date.
+[ERROR] (61bo) Could not get a response from API for this package. See below for details.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
+    pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
 [INFO] (650-auto-comp-jaewon) This package is up to date.
 [INFO] (652ga) This package is up to date.
 [INFO] (666) This package is up to date.
 [INFO] (69) This package is up to date.
 [INFO] (6d657461666c6f77) This package is up to date.
 [INFO] (6du-tv) This package is up to date.
+[INFO] (6estates-idp) This package is up to date.
 [INFO] (7) This package is up to date.
 [ERROR] (73-portlet-links) This package does not have downloadable releases.
 [INFO] (73-unlockitems) This package is up to date.
@@ -621,6 +952,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (7uring) This package is up to date.
 [INFO] (7xydothis) This package is up to date.
 [INFO] (8) This package is up to date.
+[INFO] (83-numbers) This package is up to date.
+[INFO] (88) This package is up to date.
+[INFO] (888) This package is up to date.
 [INFO] (88ab6720d79b4cbd93cab7180920d89c) This package is up to date.
 [INFO] (88orm) This package is up to date.
 [INFO] (88orm-service-connector) This package is up to date.
@@ -631,20 +965,10 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (8ball-pycon-demo-cole-wilson) This package is up to date.
 [ERROR] (8exbypina) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
-  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
-    response = self.parent.error(
-  File "/usr/lib/python3.10/urllib/request.py", line 557, in error
-    result = self._call_chain(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.10/urllib/request.py", line 749, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
   File "/usr/lib/python3.10/urllib/request.py", line 525, in open
     response = meth(req, response)
   File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
@@ -660,10 +984,9 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 [INFO] (9) This package is up to date.
 [INFO] (908dist) This package is up to date.
 [INFO] (91act-platform) This package is up to date.
-[INFO] (91downloader) This package is up to date.
 [ERROR] (91tvspider) Could not get a response from API for this package. See below for details.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 263, in get_pkgdata
+  File "/usr/local/lib/python3.10/dist-packages/pypicontents/api/pypi.py", line 249, in get_pkgdata
     pkgjsonraw = urlopen(url='{0}/pypi/{1}/json'.format(pypiurl, pkgname),
   File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
     return opener.open(url, data, timeout)
@@ -679,17 +1002,20 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
 
+[INFO] (99) This package is up to date.
+[INFO] (999) This package is up to date.
 [INFO] (99d4aa80-d846-424f-873b-a02c7215fc54) This package is up to date.
+[INFO] (9ja) This package is up to date.
 [INFO] 
 [INFO] 
-[INFO] Total packages: 331
-[INFO]     Packages processed: 331
-[INFO]         Packages updated: 0
-[INFO]         Packages up-to-date: 297
-[INFO]         Packages without response: 18
+[INFO] Total packages: 388
+[INFO]     Packages processed: 388
+[INFO]         Packages updated: 3
+[INFO]         Packages up-to-date: 335
+[INFO]         Packages without response: 31
 [INFO]         Packages without urls: 0
 [INFO]         Packages without downloads: 13
-[INFO]         Packages with data errors: 3
+[INFO]         Packages with data errors: 6
 [INFO]     Packages not processed: 0
 [INFO] 
 [INFO] 
